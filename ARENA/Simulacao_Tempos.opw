@@ -1,0 +1,19 @@
+[RESOURCES]
+OPERADOR_CORTE
+OPERADOR_TORNO
+OPERADOR_LIXADEIRA
+[VARIABLES]
+Processo Cortadeira.NumberOut
+Processo Cortadeira.NumberIn
+TOTAL_VERDE
+Processo Lixadeira.NumberOut
+TOTAL_AZUL
+TOTAL_CORTE
+Chegada.NumberOut
+TOTAL_VERMELHO
+Dispose 1.NumberOut
+TOTAL_TORNO
+Processo Torno.NumberOut
+Processo Torno.NumberIn
+Processo Lixadeira.NumberIn
+TOTAL_LIXADEIRA

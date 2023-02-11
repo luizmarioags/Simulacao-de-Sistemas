@@ -1,0 +1,43 @@
+
+                                      ARENA Simulation Results
+                           luizmandradegomes@gmail.com - License: STUDENT
+
+                                  Sumário para Replicação 1 de 1
+
+Projeto: Unnamed Project                                             Data da execução : 1/ 5/2023
+Analista: luizmandradegomes@gmail.com                                 Data de revisão do modelo: 1/ 5/2023
+
+Replicação terminada no tempo de      : 1000.0 Minutos 
+Unidade de Tempo Base: Minutos
+
+                                           VARIÁVEIS DE REGISTRO
+
+Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
+___________________________________________________________________________________________________
+
+CAIXA.VATime                                4.1495     .07270     3.0055     5.9806        387    
+CAIXA.NVATime                               .00000     .00000     .00000     .00000        387    
+CAIXA.WaitTime                              .00000     .00000     .00000     .00000        387    
+CAIXA.TranTime                              .00000     .00000     .00000     .00000        387    
+CAIXA.OtherTime                             .00000     .00000     .00000     .00000        387    
+CAIXA.TotalTime                             4.1495     .07270     3.0055     5.9806        387    
+
+                                     VARIÁVEIS DISCRETAS
+
+Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
+___________________________________________________________________________________________________
+
+CAIXA.WIP                                   1.6116     .13526     .00000     7.0000     2.0000    
+
+                                             RESULTADOS
+
+Identificador                                   Valor
+_____________________________________________________________
+
+CAIXA.NumberIn                              389.00    
+CAIXA.NumberOut                             387.00    
+System.NumberOut                            387.00    
+
+
+Tempo executando a simulação: 0.47 minutos.
+Simulação completada.

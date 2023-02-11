@@ -1,0 +1,654 @@
+
+                                      ARENA Simulation Results
+                           luizmandradegomes@gmail.com - License: STUDENT
+
+                                  Sumário para Replicação 1 de 10
+
+Projeto: Unnamed Project                                             Data da execução : 1/ 3/2023
+Analista: luizmandradegomes@gmail.com                                 Data de revisão do modelo: 1/ 3/2023
+
+Replicação terminada no tempo de      : 2000.0 Minutos 
+Unidade de Tempo Base: Minutos
+
+                                           VARIÁVEIS DE REGISTRO
+
+Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
+___________________________________________________________________________________________________
+
+PECAS.VATime                                3.7833     .08670     2.0532     6.1837        501    
+PECAS.NVATime                               .00000     .00000     .00000     .00000        501    
+PECAS.WaitTime                              5.8985     1.3709     .66667     23.393        501    
+PECAS.TranTime                              .36560     .00308     .33333     .41667        501    
+PECAS.OtherTime                             .39787     .00616     .33333     .50000        501    
+PECAS.TotalTime                             10.445     1.3904     3.6193     29.676        501    
+Request 4.Queue.WaitingTime                 .01399     (Insuf)    .00000     .58653        195    
+Request 3.Queue.WaitingTime                 .01833     (Insuf)    .00000     .60489        195    
+Processo Maquina A.Queue.WaitingTime        4.8996     1.3683     .00000     22.316        503    
+Processo Reparo.Queue.WaitingTime           .00562     (Insuf)    .00000     .73284        195    
+Request 1.Queue.WaitingTime                 .01848     .00904     .00000     1.1147        505    
+Request 2.Queue.WaitingTime                 .01183     (Insuf)    .00000     .52592        307    
+
+                                     VARIÁVEIS DISCRETAS
+
+Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
+___________________________________________________________________________________________________
+
+PECAS.WIP                                   2.6218     .50842     .00000     10.000     4.0000    
+Operador Maquina A.NumberBusy               .75583     (Insuf)    .00000     1.0000     1.0000    
+Operador Maquina A.NumberScheduled          1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador Maquina A.Utilization              .75583     (Insuf)    .00000     1.0000     1.0000    
+Reparador.NumberBusy                        .19491     .02739     .00000     1.0000     .00000    
+Reparador.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Reparador.Utilization                       .19491     .02739     .00000     1.0000     .00000    
+Request 4.Queue.NumberInQueue               .00136     (Insuf)    .00000     1.0000     .00000    
+Request 3.Queue.NumberInQueue               .00179     (Insuf)    .00000     1.0000     .00000    
+Processo Maquina A.Queue.NumberInQueue      1.2324     .40201     .00000     8.0000     1.0000    
+Processo Reparo.Queue.NumberInQueue          5.4787E-4 (Insuf)    .00000     1.0000     .00000    
+Request 1.Queue.NumberInQueue               .00467     (Insuf)    .00000     2.0000     .00000    
+Request 2.Queue.NumberInQueue               .00182     (Insuf)    .00000     1.0000     .00000    
+
+                                             RESULTADOS
+
+Identificador                                   Valor
+_____________________________________________________________
+
+PECAS.NumberIn                              505.00    
+PECAS.NumberOut                             501.00    
+Operador Maquina A.NumberSeized             503.00    
+Operador Maquina A.ScheduledUtilization     .75583    
+Reparador.NumberSeized                      195.00    
+Reparador.ScheduledUtilization              .19491    
+System.NumberOut                            501.00    
+
+Iniciando replicação 2 de 10
+
+                                      ARENA Simulation Results
+                           luizmandradegomes@gmail.com - License: STUDENT
+
+                                  Sumário para Replicação 2 de 10
+
+Projeto: Unnamed Project                                             Data da execução : 1/ 3/2023
+Analista: luizmandradegomes@gmail.com                                 Data de revisão do modelo: 1/ 3/2023
+
+Replicação terminada no tempo de      : 2000.0 Minutos 
+Unidade de Tempo Base: Minutos
+
+                                           VARIÁVEIS DE REGISTRO
+
+Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
+___________________________________________________________________________________________________
+
+PECAS.VATime                                3.8197     .08566     2.0138     6.2682        512    
+PECAS.NVATime                               .00000     .00000     .00000     .00000        512    
+PECAS.WaitTime                              4.8649     .91168     .50000     16.565        512    
+PECAS.TranTime                              .36735     .00360     .33333     .41667        512    
+PECAS.OtherTime                             .40137     .00720     .33333     .50000        512    
+PECAS.TotalTime                             9.4533     .91802     3.4276     22.473        512    
+Request 4.Queue.WaitingTime                 .01279     (Insuf)    .00000     .53239        210    
+Request 3.Queue.WaitingTime                 .00920     (Insuf)    .00000     .51097        210    
+Processo Maquina A.Queue.WaitingTime        3.8937     .90821     .00000     15.748        515    
+Processo Reparo.Queue.WaitingTime           .00191     (Insuf)    .00000     .34828        210    
+Request 1.Queue.WaitingTime                 .01919     .00770     .00000     .57482        520    
+Request 2.Queue.WaitingTime                 .00911     (Insuf)    .00000     .39581        303    
+
+                                     VARIÁVEIS DISCRETAS
+
+Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
+___________________________________________________________________________________________________
+
+PECAS.WIP                                   2.4441     .37594     .00000     8.0000     8.0000    
+Operador Maquina A.NumberBusy               .77256     (Insuf)    .00000     1.0000     1.0000    
+Operador Maquina A.NumberScheduled          1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador Maquina A.Utilization              .77256     (Insuf)    .00000     1.0000     1.0000    
+Reparador.NumberBusy                        .20937     .02269     .00000     1.0000     .00000    
+Reparador.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Reparador.Utilization                       .20937     .02269     .00000     1.0000     .00000    
+Request 4.Queue.NumberInQueue               .00134     (Insuf)    .00000     1.0000     .00000    
+Request 3.Queue.NumberInQueue                9.6573E-4 (Insuf)    .00000     1.0000     .00000    
+Processo Maquina A.Queue.NumberInQueue      1.0113     .30182     .00000     6.0000     4.0000    
+Processo Reparo.Queue.NumberInQueue          2.0089E-4 (Insuf)    .00000     1.0000     .00000    
+Request 1.Queue.NumberInQueue               .00499     (Insuf)    .00000     2.0000     .00000    
+Request 2.Queue.NumberInQueue               .00145     (Insuf)    .00000     1.0000     1.0000    
+
+                                             RESULTADOS
+
+Identificador                                   Valor
+_____________________________________________________________
+
+PECAS.NumberIn                              520.00    
+PECAS.NumberOut                             512.00    
+Operador Maquina A.NumberSeized             515.00    
+Operador Maquina A.ScheduledUtilization     .77256    
+Reparador.NumberSeized                      210.00    
+Reparador.ScheduledUtilization              .20937    
+System.NumberOut                            512.00    
+
+Iniciando replicação 3 de 10
+
+                                      ARENA Simulation Results
+                           luizmandradegomes@gmail.com - License: STUDENT
+
+                                  Sumário para Replicação 3 de 10
+
+Projeto: Unnamed Project                                             Data da execução : 1/ 3/2023
+Analista: luizmandradegomes@gmail.com                                 Data de revisão do modelo: 1/ 3/2023
+
+Replicação terminada no tempo de      : 2000.0 Minutos 
+Unidade de Tempo Base: Minutos
+
+                                           VARIÁVEIS DE REGISTRO
+
+Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
+___________________________________________________________________________________________________
+
+PECAS.VATime                                3.8049     .09182     2.0554     6.2230        517    
+PECAS.NVATime                               .00000     .00000     .00000     .00000        517    
+PECAS.WaitTime                              5.5811     1.0289     .66667     22.823        517    
+PECAS.TranTime                              .36734     .00360     .33333     .41667        517    
+PECAS.OtherTime                             .40135     .00720     .33333     .50000        517    
+PECAS.TotalTime                             10.154     1.0298     3.6864     26.182        517    
+Request 4.Queue.WaitingTime                 .01286     (Insuf)    .00000     .42627        211    
+Request 3.Queue.WaitingTime                 .01136     (Insuf)    .00000     .72599        211    
+Processo Maquina A.Queue.WaitingTime        4.5914     1.0267     .00000     21.823        517    
+Processo Reparo.Queue.WaitingTime           .00345     (Insuf)    .00000     .30327        211    
+Request 1.Queue.WaitingTime                 .02621     .01188     .00000     .79628        517    
+Request 2.Queue.WaitingTime                 .01148     (Insuf)    .00000     .53595        306    
+
+                                     VARIÁVEIS DISCRETAS
+
+Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
+___________________________________________________________________________________________________
+
+PECAS.WIP                                   2.6250     .42860     .00000     10.000     .00000    
+Operador Maquina A.NumberBusy               .77782     (Insuf)    .00000     1.0000     .00000    
+Operador Maquina A.NumberScheduled          1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador Maquina A.Utilization              .77782     (Insuf)    .00000     1.0000     .00000    
+Reparador.NumberBusy                        .20575     .02870     .00000     1.0000     .00000    
+Reparador.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Reparador.Utilization                       .20575     .02870     .00000     1.0000     .00000    
+Request 4.Queue.NumberInQueue               .00136     (Insuf)    .00000     1.0000     .00000    
+Request 3.Queue.NumberInQueue               .00120     (Insuf)    .00000     1.0000     .00000    
+Processo Maquina A.Queue.NumberInQueue      1.1868     .34219     .00000     8.0000     .00000    
+Processo Reparo.Queue.NumberInQueue          3.6418E-4 (Insuf)    .00000     1.0000     .00000    
+Request 1.Queue.NumberInQueue               .00677     (Insuf)    .00000     2.0000     .00000    
+Request 2.Queue.NumberInQueue               .00176     (Insuf)    .00000     1.0000     .00000    
+
+                                             RESULTADOS
+
+Identificador                                   Valor
+_____________________________________________________________
+
+PECAS.NumberIn                              517.00    
+PECAS.NumberOut                             517.00    
+Operador Maquina A.NumberSeized             517.00    
+Operador Maquina A.ScheduledUtilization     .77782    
+Reparador.NumberSeized                      211.00    
+Reparador.ScheduledUtilization              .20575    
+System.NumberOut                            517.00    
+
+Iniciando replicação 4 de 10
+
+                                      ARENA Simulation Results
+                           luizmandradegomes@gmail.com - License: STUDENT
+
+                                  Sumário para Replicação 4 de 10
+
+Projeto: Unnamed Project                                             Data da execução : 1/ 3/2023
+Analista: luizmandradegomes@gmail.com                                 Data de revisão do modelo: 1/ 3/2023
+
+Replicação terminada no tempo de      : 2000.0 Minutos 
+Unidade de Tempo Base: Minutos
+
+                                           VARIÁVEIS DE REGISTRO
+
+Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
+___________________________________________________________________________________________________
+
+PECAS.VATime                                3.7192     .09424     2.0253     6.6837        514    
+PECAS.NVATime                               .00000     .00000     .00000     .00000        514    
+PECAS.WaitTime                              6.1559     (Corr)     .66667     27.953        514    
+PECAS.TranTime                              .36430     .00410     .33333     .41667        514    
+PECAS.OtherTime                             .39527     .00820     .33333     .50000        514    
+PECAS.TotalTime                             10.634     (Corr)     3.7261     33.062        514    
+Request 4.Queue.WaitingTime                 .01107     (Insuf)    .00000     .64514        191    
+Request 3.Queue.WaitingTime                 .00413     (Insuf)    .00000     .37735        192    
+Processo Maquina A.Queue.WaitingTime        5.1743     (Corr)     .00000     26.891        515    
+Processo Reparo.Queue.WaitingTime           .00261     (Insuf)    .00000     .26243        192    
+Request 1.Queue.WaitingTime                 .01732     .00876     .00000     .65235        515    
+Request 2.Queue.WaitingTime                 .01754     .00836     .00000     .63079        323    
+
+                                     VARIÁVEIS DISCRETAS
+
+Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
+___________________________________________________________________________________________________
+
+PECAS.WIP                                   2.7356     (Corr)     .00000     11.000     1.0000    
+Operador Maquina A.NumberBusy               .76673     (Insuf)    .00000     1.0000     .00000    
+Operador Maquina A.NumberScheduled          1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador Maquina A.Utilization              .76673     (Insuf)    .00000     1.0000     .00000    
+Reparador.NumberBusy                        .19086     .02893     .00000     1.0000     1.0000    
+Reparador.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Reparador.Utilization                       .19086     .02893     .00000     1.0000     1.0000    
+Request 4.Queue.NumberInQueue               .00106     (Insuf)    .00000     1.0000     .00000    
+Request 3.Queue.NumberInQueue                3.9608E-4 (Insuf)    .00000     1.0000     .00000    
+Processo Maquina A.Queue.NumberInQueue      1.3323     (Corr)     .00000     9.0000     .00000    
+Processo Reparo.Queue.NumberInQueue          2.5016E-4 (Insuf)    .00000     1.0000     .00000    
+Request 1.Queue.NumberInQueue               .00446     (Insuf)    .00000     2.0000     .00000    
+Request 2.Queue.NumberInQueue               .00283     (Insuf)    .00000     1.0000     .00000    
+
+                                             RESULTADOS
+
+Identificador                                   Valor
+_____________________________________________________________
+
+PECAS.NumberIn                              515.00    
+PECAS.NumberOut                             514.00    
+Operador Maquina A.NumberSeized             515.00    
+Operador Maquina A.ScheduledUtilization     .76673    
+Reparador.NumberSeized                      192.00    
+Reparador.ScheduledUtilization              .19086    
+System.NumberOut                            514.00    
+
+Iniciando replicação 5 de 10
+
+                                      ARENA Simulation Results
+                           luizmandradegomes@gmail.com - License: STUDENT
+
+                                  Sumário para Replicação 5 de 10
+
+Projeto: Unnamed Project                                             Data da execução : 1/ 3/2023
+Analista: luizmandradegomes@gmail.com                                 Data de revisão do modelo: 1/ 3/2023
+
+Replicação terminada no tempo de      : 2000.0 Minutos 
+Unidade de Tempo Base: Minutos
+
+                                           VARIÁVEIS DE REGISTRO
+
+Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
+___________________________________________________________________________________________________
+
+PECAS.VATime                                3.8283     .11145     2.0982     6.7731        503    
+PECAS.NVATime                               .00000     .00000     .00000     .00000        503    
+PECAS.WaitTime                              5.5570     (Corr)     .64743     42.021        503    
+PECAS.TranTime                              .36862     .00413     .33333     .41667        503    
+PECAS.OtherTime                             .40391     .00825     .33333     .50000        503    
+PECAS.TotalTime                             10.157     (Corr)     3.6135     48.198        503    
+Request 4.Queue.WaitingTime                 .01294     (Insuf)    .00000     .57962        213    
+Request 3.Queue.WaitingTime                 .01162     (Insuf)    .00000     .52725        213    
+Processo Maquina A.Queue.WaitingTime        4.5731     (Corr)     .00000     40.411        503    
+Processo Reparo.Queue.WaitingTime           .00583     (Insuf)    .00000     .63133        213    
+Request 1.Queue.WaitingTime                 .01570     .00779     .00000     .70220        503    
+Request 2.Queue.WaitingTime                 .00623     (Insuf)    .00000     .52461        290    
+
+                                     VARIÁVEIS DISCRETAS
+
+Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
+___________________________________________________________________________________________________
+
+PECAS.WIP                                   2.5547     (Corr)     .00000     16.000     .00000    
+Operador Maquina A.NumberBusy               .75160     (Insuf)    .00000     1.0000     .00000    
+Operador Maquina A.NumberScheduled          1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador Maquina A.Utilization              .75160     (Insuf)    .00000     1.0000     .00000    
+Reparador.NumberBusy                        .21123     .03552     .00000     1.0000     .00000    
+Reparador.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Reparador.Utilization                       .21123     .03552     .00000     1.0000     .00000    
+Request 4.Queue.NumberInQueue               .00138     (Insuf)    .00000     1.0000     .00000    
+Request 3.Queue.NumberInQueue               .00124     (Insuf)    .00000     1.0000     .00000    
+Processo Maquina A.Queue.NumberInQueue      1.1501     (Corr)     .00000     13.000     .00000    
+Processo Reparo.Queue.NumberInQueue          6.2059E-4 (Insuf)    .00000     1.0000     .00000    
+Request 1.Queue.NumberInQueue               .00395     (Insuf)    .00000     2.0000     .00000    
+Request 2.Queue.NumberInQueue                9.0309E-4 (Insuf)    .00000     1.0000     .00000    
+
+                                             RESULTADOS
+
+Identificador                                   Valor
+_____________________________________________________________
+
+PECAS.NumberIn                              503.00    
+PECAS.NumberOut                             503.00    
+Operador Maquina A.NumberSeized             503.00    
+Operador Maquina A.ScheduledUtilization     .75160    
+Reparador.NumberSeized                      213.00    
+Reparador.ScheduledUtilization              .21123    
+System.NumberOut                            503.00    
+
+Iniciando replicação 6 de 10
+
+                                      ARENA Simulation Results
+                           luizmandradegomes@gmail.com - License: STUDENT
+
+                                  Sumário para Replicação 6 de 10
+
+Projeto: Unnamed Project                                             Data da execução : 1/ 3/2023
+Analista: luizmandradegomes@gmail.com                                 Data de revisão do modelo: 1/ 3/2023
+
+Replicação terminada no tempo de      : 2000.0 Minutos 
+Unidade de Tempo Base: Minutos
+
+                                           VARIÁVEIS DE REGISTRO
+
+Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
+___________________________________________________________________________________________________
+
+PECAS.VATime                                3.6568     .08730     2.0722     6.1925        496    
+PECAS.NVATime                               .00000     .00000     .00000     .00000        496    
+PECAS.WaitTime                              7.5699     (Corr)     .50000     42.648        496    
+PECAS.TranTime                              .36324     .00334     .33333     .41667        496    
+PECAS.OtherTime                             .39315     .00668     .33333     .50000        496    
+PECAS.TotalTime                             11.983     (Corr)     3.6065     45.987        496    
+Request 4.Queue.WaitingTime                 .00975     (Insuf)    .00000     .43796        178    
+Request 3.Queue.WaitingTime                 .01414     (Insuf)    .00000     .43691        178    
+Processo Maquina A.Queue.WaitingTime        6.5885     (Corr)     .00000     41.981        498    
+Processo Reparo.Queue.WaitingTime            2.4797E-4 (Insuf)    .00000     .03355        178    
+Request 1.Queue.WaitingTime                 .01290     .00640     .00000     .71732        498    
+Request 2.Queue.WaitingTime                 .00452     (Insuf)    .00000     .41122        319    
+
+                                     VARIÁVEIS DISCRETAS
+
+Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
+___________________________________________________________________________________________________
+
+PECAS.WIP                                   2.9760     (Corr)     .00000     16.000     2.0000    
+Operador Maquina A.NumberBusy               .73110     (Insuf)    .00000     1.0000     1.0000    
+Operador Maquina A.NumberScheduled          1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador Maquina A.Utilization              .73110     (Insuf)    .00000     1.0000     1.0000    
+Reparador.NumberBusy                        .17745     .02185     .00000     1.0000     .00000    
+Reparador.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Reparador.Utilization                       .17745     .02185     .00000     1.0000     .00000    
+Request 4.Queue.NumberInQueue                8.6770E-4 (Insuf)    .00000     1.0000     .00000    
+Request 3.Queue.NumberInQueue               .00126     (Insuf)    .00000     1.0000     .00000    
+Processo Maquina A.Queue.NumberInQueue      1.6405     (Corr)     .00000     14.000     .00000    
+Processo Reparo.Queue.NumberInQueue          2.2069E-5 (Insuf)    .00000     1.0000     .00000    
+Request 1.Queue.NumberInQueue               .00321     (Insuf)    .00000     1.0000     .00000    
+Request 2.Queue.NumberInQueue                7.2097E-4 (Insuf)    .00000     1.0000     .00000    
+
+                                             RESULTADOS
+
+Identificador                                   Valor
+_____________________________________________________________
+
+PECAS.NumberIn                              498.00    
+PECAS.NumberOut                             496.00    
+Operador Maquina A.NumberSeized             498.00    
+Operador Maquina A.ScheduledUtilization     .73110    
+Reparador.NumberSeized                      178.00    
+Reparador.ScheduledUtilization              .17745    
+System.NumberOut                            496.00    
+
+Iniciando replicação 7 de 10
+
+                                      ARENA Simulation Results
+                           luizmandradegomes@gmail.com - License: STUDENT
+
+                                  Sumário para Replicação 7 de 10
+
+Projeto: Unnamed Project                                             Data da execução : 1/ 3/2023
+Analista: luizmandradegomes@gmail.com                                 Data de revisão do modelo: 1/ 3/2023
+
+Replicação terminada no tempo de      : 2000.0 Minutos 
+Unidade de Tempo Base: Minutos
+
+                                           VARIÁVEIS DE REGISTRO
+
+Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
+___________________________________________________________________________________________________
+
+PECAS.VATime                                3.8009     .11523     2.0741     6.4978        470    
+PECAS.NVATime                               .00000     .00000     .00000     .00000        470    
+PECAS.WaitTime                              4.8656     1.3677     .66667     22.860        470    
+PECAS.TranTime                              .36472     .00378     .33333     .41667        470    
+PECAS.OtherTime                             .39610     .00756     .33333     .50000        470    
+PECAS.TotalTime                             9.4274     1.3599     3.4545     29.169        470    
+Request 4.Queue.WaitingTime                 .00225     (Insuf)    .00000     .20017        177    
+Request 3.Queue.WaitingTime                 .01339     (Insuf)    .00000     .59107        177    
+Processo Maquina A.Queue.WaitingTime        3.8901     1.3642     .00000     21.777        471    
+Processo Reparo.Queue.WaitingTime            4.8146E-4 (Insuf)    .00000     .08522        177    
+Request 1.Queue.WaitingTime                 .01990     .00767     .00000     .82321        471    
+Request 2.Queue.WaitingTime                 .01196     (Insuf)    .00000     .50679        293    
+
+                                     VARIÁVEIS DISCRETAS
+
+Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
+___________________________________________________________________________________________________
+
+PECAS.WIP                                   2.2160     .48180     .00000     9.0000     1.0000    
+Operador Maquina A.NumberBusy               .71419     (Insuf)    .00000     1.0000     1.0000    
+Operador Maquina A.NumberScheduled          1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador Maquina A.Utilization              .71419     (Insuf)    .00000     1.0000     1.0000    
+Reparador.NumberBusy                        .17915     (Corr)     .00000     1.0000     .00000    
+Reparador.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Reparador.Utilization                       .17915     (Corr)     .00000     1.0000     .00000    
+Request 4.Queue.NumberInQueue                1.9923E-4 (Insuf)    .00000     1.0000     .00000    
+Request 3.Queue.NumberInQueue               .00119     (Insuf)    .00000     1.0000     .00000    
+Processo Maquina A.Queue.NumberInQueue      .91612     .38319     .00000     8.0000     .00000    
+Processo Reparo.Queue.NumberInQueue          4.2609E-5 (Insuf)    .00000     1.0000     .00000    
+Request 1.Queue.NumberInQueue               .00469     (Insuf)    .00000     1.0000     .00000    
+Request 2.Queue.NumberInQueue               .00175     (Insuf)    .00000     1.0000     .00000    
+
+                                             RESULTADOS
+
+Identificador                                   Valor
+_____________________________________________________________
+
+PECAS.NumberIn                              471.00    
+PECAS.NumberOut                             470.00    
+Operador Maquina A.NumberSeized             471.00    
+Operador Maquina A.ScheduledUtilization     .71419    
+Reparador.NumberSeized                      177.00    
+Reparador.ScheduledUtilization              .17915    
+System.NumberOut                            470.00    
+
+Iniciando replicação 8 de 10
+
+                                      ARENA Simulation Results
+                           luizmandradegomes@gmail.com - License: STUDENT
+
+                                  Sumário para Replicação 8 de 10
+
+Projeto: Unnamed Project                                             Data da execução : 1/ 3/2023
+Analista: luizmandradegomes@gmail.com                                 Data de revisão do modelo: 1/ 3/2023
+
+Replicação terminada no tempo de      : 2000.0 Minutos 
+Unidade de Tempo Base: Minutos
+
+                                           VARIÁVEIS DE REGISTRO
+
+Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
+___________________________________________________________________________________________________
+
+PECAS.VATime                                3.8239     .09629     2.0235     6.1876        499    
+PECAS.NVATime                               .00000     .00000     .00000     .00000        499    
+PECAS.WaitTime                              4.5808     .70396     .50000     17.053        499    
+PECAS.TranTime                              .36690     .00341     .33333     .41667        499    
+PECAS.OtherTime                             .40047     .00682     .33333     .50000        499    
+PECAS.TotalTime                             9.1722     .73314     3.4962     23.706        499    
+Request 4.Queue.WaitingTime                 .01591     (Insuf)    .00000     .56437        201    
+Request 3.Queue.WaitingTime                 .01340     (Insuf)    .00000     .62619        202    
+Processo Maquina A.Queue.WaitingTime        3.5850     .69920     .00000     16.011        501    
+Processo Reparo.Queue.WaitingTime           .00224     (Insuf)    .00000     .34957        202    
+Request 1.Queue.WaitingTime                 .02262     .01084     .00000     .87449        503    
+Request 2.Queue.WaitingTime                 .00685     (Insuf)    .00000     .65307        298    
+
+                                     VARIÁVEIS DISCRETAS
+
+Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
+___________________________________________________________________________________________________
+
+PECAS.WIP                                   2.2956     .35102     .00000     8.0000     4.0000    
+Operador Maquina A.NumberBusy               .75192     (Insuf)    .00000     1.0000     1.0000    
+Operador Maquina A.NumberScheduled          1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador Maquina A.Utilization              .75192     (Insuf)    .00000     1.0000     1.0000    
+Reparador.NumberBusy                        .20584     (Corr)     .00000     1.0000     1.0000    
+Reparador.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Reparador.Utilization                       .20584     (Corr)     .00000     1.0000     1.0000    
+Request 4.Queue.NumberInQueue               .00160     (Insuf)    .00000     1.0000     .00000    
+Request 3.Queue.NumberInQueue               .00135     (Insuf)    .00000     1.0000     .00000    
+Processo Maquina A.Queue.NumberInQueue      .89935     .25467     .00000     6.0000     2.0000    
+Processo Reparo.Queue.NumberInQueue          2.2660E-4 (Insuf)    .00000     1.0000     .00000    
+Request 1.Queue.NumberInQueue               .00569     (Insuf)    .00000     2.0000     .00000    
+Request 2.Queue.NumberInQueue               .00102     (Insuf)    .00000     1.0000     .00000    
+
+                                             RESULTADOS
+
+Identificador                                   Valor
+_____________________________________________________________
+
+PECAS.NumberIn                              503.00    
+PECAS.NumberOut                             499.00    
+Operador Maquina A.NumberSeized             501.00    
+Operador Maquina A.ScheduledUtilization     .75192    
+Reparador.NumberSeized                      202.00    
+Reparador.ScheduledUtilization              .20584    
+System.NumberOut                            499.00    
+
+Iniciando replicação 9 de 10
+
+                                      ARENA Simulation Results
+                           luizmandradegomes@gmail.com - License: STUDENT
+
+                                  Sumário para Replicação 9 de 10
+
+Projeto: Unnamed Project                                             Data da execução : 1/ 3/2023
+Analista: luizmandradegomes@gmail.com                                 Data de revisão do modelo: 1/ 3/2023
+
+Replicação terminada no tempo de      : 2000.0 Minutos 
+Unidade de Tempo Base: Minutos
+
+                                           VARIÁVEIS DE REGISTRO
+
+Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
+___________________________________________________________________________________________________
+
+PECAS.VATime                                3.7751     .09819     2.0624     6.7556        521    
+PECAS.NVATime                               .00000     .00000     .00000     .00000        521    
+PECAS.WaitTime                              6.7696     (Corr)     .50000     27.746        521    
+PECAS.TranTime                              .36580     (Corr)     .33333     .41667        521    
+PECAS.OtherTime                             .39827     (Corr)     .33333     .50000        521    
+PECAS.TotalTime                             11.308     (Corr)     3.5624     33.649        521    
+Request 4.Queue.WaitingTime                 .01376     (Insuf)    .00000     .73381        203    
+Request 3.Queue.WaitingTime                 .00946     (Insuf)    .00000     .53798        203    
+Processo Maquina A.Queue.WaitingTime        5.7898     (Corr)     .00000     26.913        522    
+Processo Reparo.Queue.WaitingTime            4.8150E-4 (Insuf)    .00000     .06672        203    
+Request 1.Queue.WaitingTime                 .02106     .00888     .00000     .76650        522    
+Request 2.Queue.WaitingTime                 .01121     (Insuf)    .00000     .68363        318    
+
+                                     VARIÁVEIS DISCRETAS
+
+Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
+___________________________________________________________________________________________________
+
+PECAS.WIP                                   2.9494     (Corr)     .00000     12.000     1.0000    
+Operador Maquina A.NumberBusy               .77931     (Insuf)    .00000     1.0000     1.0000    
+Operador Maquina A.NumberScheduled          1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador Maquina A.Utilization              .77931     (Insuf)    .00000     1.0000     1.0000    
+Reparador.NumberBusy                        .20490     .02352     .00000     1.0000     .00000    
+Reparador.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Reparador.Utilization                       .20490     .02352     .00000     1.0000     .00000    
+Request 4.Queue.NumberInQueue               .00140     (Insuf)    .00000     1.0000     .00000    
+Request 3.Queue.NumberInQueue                9.6026E-4 (Insuf)    .00000     1.0000     .00000    
+Processo Maquina A.Queue.NumberInQueue      1.5111     (Corr)     .00000     10.000     .00000    
+Processo Reparo.Queue.NumberInQueue          4.8872E-5 (Insuf)    .00000     1.0000     .00000    
+Request 1.Queue.NumberInQueue               .00550     (Insuf)    .00000     2.0000     .00000    
+Request 2.Queue.NumberInQueue               .00178     (Insuf)    .00000     1.0000     .00000    
+
+                                             RESULTADOS
+
+Identificador                                   Valor
+_____________________________________________________________
+
+PECAS.NumberIn                              522.00    
+PECAS.NumberOut                             521.00    
+Operador Maquina A.NumberSeized             522.00    
+Operador Maquina A.ScheduledUtilization     .77931    
+Reparador.NumberSeized                      203.00    
+Reparador.ScheduledUtilization              .20490    
+System.NumberOut                            521.00    
+
+Iniciando replicação 10 de 10
+
+                                      ARENA Simulation Results
+                           luizmandradegomes@gmail.com - License: STUDENT
+
+                                  Sumário para Replicação 10 de 10
+
+Projeto: Unnamed Project                                             Data da execução : 1/ 3/2023
+Analista: luizmandradegomes@gmail.com                                 Data de revisão do modelo: 1/ 3/2023
+
+Replicação terminada no tempo de      : 2000.0 Minutos 
+Unidade de Tempo Base: Minutos
+
+                                           VARIÁVEIS DE REGISTRO
+
+Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
+___________________________________________________________________________________________________
+
+PECAS.VATime                                3.8227     .07963     2.0889     6.5587        490    
+PECAS.NVATime                               .00000     .00000     .00000     .00000        490    
+PECAS.WaitTime                              5.1498     1.1406     .66667     23.733        490    
+PECAS.TranTime                              .36956     .00323     .33333     .41667        490    
+PECAS.OtherTime                             .40578     .00646     .33333     .50000        490    
+PECAS.TotalTime                             9.7479     1.1165     3.4578     28.787        490    
+Request 4.Queue.WaitingTime                 .01714     (Insuf)    .00000     .89819        213    
+Request 3.Queue.WaitingTime                 .01644     (Insuf)    .00000     .72446        213    
+Processo Maquina A.Queue.WaitingTime        4.1664     1.1402     .00000     23.066        491    
+Processo Reparo.Queue.WaitingTime           .00103     (Insuf)    .00000     .18266        213    
+Request 1.Queue.WaitingTime                 .01734     .00769     .00000     .84579        492    
+Request 2.Queue.WaitingTime                 .01201     (Insuf)    .00000     .44553        277    
+
+                                     VARIÁVEIS DISCRETAS
+
+Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
+___________________________________________________________________________________________________
+
+PECAS.WIP                                   2.3997     .45069     .00000     10.000     2.0000    
+Operador Maquina A.NumberBusy               .72600     (Insuf)    .00000     1.0000     1.0000    
+Operador Maquina A.NumberScheduled          1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador Maquina A.Utilization              .72600     (Insuf)    .00000     1.0000     1.0000    
+Reparador.NumberBusy                        .21185     .02802     .00000     1.0000     .00000    
+Reparador.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Reparador.Utilization                       .21185     .02802     .00000     1.0000     .00000    
+Request 4.Queue.NumberInQueue               .00183     (Insuf)    .00000     1.0000     .00000    
+Request 3.Queue.NumberInQueue               .00175     (Insuf)    .00000     1.0000     .00000    
+Processo Maquina A.Queue.NumberInQueue      1.0277     .37658     .00000     8.0000     1.0000    
+Processo Reparo.Queue.NumberInQueue          1.0980E-4 (Insuf)    .00000     1.0000     .00000    
+Request 1.Queue.NumberInQueue               .00427     (Insuf)    .00000     2.0000     .00000    
+Request 2.Queue.NumberInQueue               .00166     (Insuf)    .00000     1.0000     .00000    
+
+                                             RESULTADOS
+
+Identificador                                   Valor
+_____________________________________________________________
+
+PECAS.NumberIn                              492.00    
+PECAS.NumberOut                             490.00    
+Operador Maquina A.NumberSeized             491.00    
+Operador Maquina A.ScheduledUtilization     .72600    
+Reparador.NumberSeized                      213.00    
+Reparador.ScheduledUtilization              .21185    
+System.NumberOut                            490.00    
+
+
+                                      ARENA Simulation Results
+                           luizmandradegomes@gmail.com - License: STUDENT
+
+                              Resumo de resultados para 10 Replicações
+
+Projeto: Unnamed Project                                             Data da execução : 1/ 3/2023
+Analista: luizmandradegomes@gmail.com                                 Data de revisão do modelo: 1/ 3/2023
+
+
+                                             RESULTADOS
+
+Identificador                                 Média    Meia-largura Mínima    Maximo # de Replicações
+___________________________________________________________________________________________________
+
+PECAS.NumberIn                              504.60     11.025     471.00     522.00     10
+PECAS.NumberOut                             502.30     10.780     470.00     521.00     10
+Operador Maquina A.NumberSeized             503.60     10.765     471.00     522.00     10
+Operador Maquina A.ScheduledUtilization     .75270     .01618     .71419     .77931     10
+Reparador.NumberSeized                      199.40     9.7449     177.00     213.00     10
+Reparador.ScheduledUtilization              .19913     .00921     .17745     .21185     10
+System.NumberOut                            502.30     10.780     470.00     521.00     10
+
+Tempo executando a simulação: 3.67 minutos.
+Simulação completada.

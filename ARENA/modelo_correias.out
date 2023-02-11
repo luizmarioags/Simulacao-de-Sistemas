@@ -1,0 +1,65 @@
+
+                                      ARENA Simulation Results
+                           luizmandradegomes@gmail.com - License: STUDENT
+
+                                  Sumário para Replicação 1 de 1
+
+Projeto: Unnamed Project                                             Data da execução : 1/ 5/2023
+Analista: luizmandradegomes@gmail.com                                 Data de revisão do modelo: 1/ 5/2023
+
+Replicação terminada no tempo de      : 2000.0 Minutos 
+Unidade de Tempo Base: Minutos
+
+                                           VARIÁVEIS DE REGISTRO
+
+Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
+___________________________________________________________________________________________________
+
+PECAS.VATime                                3.7497     .08392     2.0532     6.3089        501    
+PECAS.NVATime                               .00000     .00000     .00000     .00000        501    
+PECAS.WaitTime                              4.9973     (Corr)     .21667     25.247        501    
+PECAS.TranTime                              .36544     .00311     .33333     .41667        501    
+PECAS.OtherTime                             .39754     .00621     .33333     .50000        501    
+PECAS.TotalTime                             9.5100     (Corr)     2.9668     29.972        501    
+Processo Maquina A.Queue.WaitingTime        4.7568     (Corr)     .00000     24.980        501    
+Processo Reparo.Queue.WaitingTime           .00230     (Insuf)    .00000     .25189        193    
+Access 4.Queue.WaitingTime                  .00000     (Insuf)    .00000     .00000        193    
+Access 2.Queue.WaitingTime                  .00000     (Insuf)    .00000     .00000        308    
+Access 3.Queue.WaitingTime                  .00000     (Insuf)    .00000     .00000        193    
+Access 1.Queue.WaitingTime                  .00369     .00247     .00000     .27741        501    
+
+                                     VARIÁVEIS DISCRETAS
+
+Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
+___________________________________________________________________________________________________
+
+PECAS.WIP                                   2.3822     .55691     .00000     10.000     .00000    
+Operador Maquina A.NumberBusy               .74869     (Insuf)    .00000     1.0000     .00000    
+Operador Maquina A.NumberScheduled          1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador Maquina A.Utilization              .74869     (Insuf)    .00000     1.0000     .00000    
+Reparador.NumberBusy                        .19062     .02765     .00000     1.0000     .00000    
+Reparador.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Reparador.Utilization                       .19062     .02765     .00000     1.0000     .00000    
+Processo Maquina A.Queue.NumberInQueue      1.1915     .48202     .00000     9.0000     .00000    
+Processo Reparo.Queue.NumberInQueue          2.2149E-4 (Insuf)    .00000     1.0000     .00000    
+Access 4.Queue.NumberInQueue                .00000     (Insuf)    .00000     1.0000     .00000    
+Access 2.Queue.NumberInQueue                .00000     (Insuf)    .00000     1.0000     .00000    
+Access 3.Queue.NumberInQueue                .00000     (Insuf)    .00000     1.0000     .00000    
+Access 1.Queue.NumberInQueue                 9.2535E-4 (Insuf)    .00000     2.0000     .00000    
+
+                                             RESULTADOS
+
+Identificador                                   Valor
+_____________________________________________________________
+
+PECAS.NumberIn                              501.00    
+PECAS.NumberOut                             501.00    
+Operador Maquina A.NumberSeized             501.00    
+Operador Maquina A.ScheduledUtilization     .74869    
+Reparador.NumberSeized                      193.00    
+Reparador.ScheduledUtilization              .19062    
+System.NumberOut                            501.00    
+
+
+Tempo executando a simulação: 0.63 minutos.
+Simulação completada.

@@ -1,0 +1,50 @@
+
+                                      ARENA Simulation Results
+                           luizmandradegomes@gmail.com - License: STUDENT
+
+                                  Sumário para Replicação 1 de 1
+
+Projeto: Unnamed Project                                             Data da execução :12/15/2022
+Analista: luizmandradegomes@gmail.com                                 Data de revisão do modelo:12/15/2022
+
+Replicação terminada no tempo de      : 1440.0 Minutos 
+Unidade de Tempo Base: Minutos
+
+                                           VARIÁVEIS DE REGISTRO
+
+Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             26.524     (Insuf)    .08381     142.49         41    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000         41    
+Entity 1.WaitTime                           51.321     (Insuf)    .00000     163.34         41    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000         41    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000         41    
+Entity 1.TotalTime                          77.845     (Insuf)    1.7448     224.17         41    
+Processamento dos meus pedidos.Queue.Waiti  52.498     (Insuf)    .00000     163.34         42    
+
+                                     VARIÁVEIS DISCRETAS
+
+Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                2.4766     (Insuf)    .00000     8.0000     4.0000    
+Caixa.NumberBusy                            .78901     (Insuf)    .00000     1.0000     1.0000    
+Caixa.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Caixa.Utilization                           .78901     (Insuf)    .00000     1.0000     1.0000    
+Processamento dos meus pedidos.Queue.Numbe  1.6876     (Insuf)    .00000     7.0000     3.0000    
+
+                                             RESULTADOS
+
+Identificador                                   Valor
+_____________________________________________________________
+
+Entity 1.NumberIn                           45.000    
+Entity 1.NumberOut                          41.000    
+Caixa.NumberSeized                          42.000    
+Caixa.ScheduledUtilization                  .78901    
+System.NumberOut                            41.000    
+
+
+Tempo executando a simulação: 0.02 minutos.
+Simulação completada.

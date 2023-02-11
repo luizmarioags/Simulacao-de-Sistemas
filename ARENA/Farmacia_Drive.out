@@ -1,0 +1,52 @@
+
+                                      ARENA Simulation Results
+                           luizmandradegomes@gmail.com - License: STUDENT
+
+                                  Sumário para Replicação 1 de 1
+
+Projeto: Unnamed Project                                             Data da execução : 1/26/2023
+Analista: luizmandradegomes@gmail.com                                 Data de revisão do modelo: 1/26/2023
+
+Replicação terminada no tempo de      : 253.19113 Minutos 
+Unidade de Tempo Base: Minutos
+
+                                           VARIÁVEIS DE REGISTRO
+
+Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
+___________________________________________________________________________________________________
+
+System Time                                 7.1096     (Insuf)    .18051     19.911         30    
+Costumer.VATime                             4.4250     (Insuf)    .18051     11.052         30    
+Costumer.NVATime                            .00000     (Insuf)    .00000     .00000         30    
+Costumer.WaitTime                           2.6845     (Insuf)    .00000     13.469         30    
+Costumer.TranTime                           .00000     (Insuf)    .00000     .00000         30    
+Costumer.OtherTime                          .00000     (Insuf)    .00000     .00000         30    
+Costumer.TotalTime                          7.1096     (Insuf)    .18051     19.911         30    
+Get Medicine.Queue.WaitingTime              2.6845     (Insuf)    .00000     13.469         30    
+
+                                     VARIÁVEIS DISCRETAS
+
+Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
+___________________________________________________________________________________________________
+
+vNumPrescriptions Value                     1.4031     (Insuf)    .00000     5.0000     .00000    
+Costumer.WIP                                .84240     (Insuf)    .00000     3.0000     .00000    
+Pharmacist.NumberBusy                       .52432     (Insuf)    .00000     1.0000     .00000    
+Pharmacist.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Pharmacist.Utilization                      .52432     (Insuf)    .00000     1.0000     .00000    
+Get Medicine.Queue.NumberInQueue            .31808     (Insuf)    .00000     2.0000     .00000    
+
+                                             RESULTADOS
+
+Identificador                                   Valor
+_____________________________________________________________
+
+Costumer.NumberIn                           30.000    
+Costumer.NumberOut                          30.000    
+Pharmacist.NumberSeized                     30.000    
+Pharmacist.ScheduledUtilization             .52432    
+System.NumberOut                            30.000    
+
+
+Tempo executando a simulação: 0.02 minutos.
+Simulação completada.

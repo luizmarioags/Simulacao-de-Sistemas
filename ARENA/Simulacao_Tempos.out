@@ -1,0 +1,922 @@
+
+                                      ARENA Simulation Results
+                           luizmandradegomes@gmail.com - License: STUDENT
+
+                                  Sumário para Replicação 1 de 10
+
+Projeto: Unnamed Project                                             Data da execução :12/22/2022
+Analista: luizmandradegomes@gmail.com                                 Data de revisão do modelo:12/22/2022
+
+Replicação terminada no tempo de      : 6000.0 Segundos 
+Unidade de Tempo Base: Segundos
+
+                                           VARIÁVEIS DE REGISTRO
+
+Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
+___________________________________________________________________________________________________
+
+PICTURE_VERMELHO.VATime                     912.78     (Insuf)    875.11     966.62          3    
+PICTURE_VERMELHO.NVATime                    .00000     (Insuf)    .00000     .00000          3    
+PICTURE_VERMELHO.WaitTime                   352.63     (Insuf)    73.596     723.04          3    
+PICTURE_VERMELHO.TranTime                   80.000     (Insuf)    80.000     80.000          3    
+PICTURE_VERMELHO.OtherTime                  .00000     (Insuf)    .00000     .00000          3    
+PICTURE_VERMELHO.TotalTime                  1345.4     (Insuf)    1050.1     1769.6          3    
+PICTURE_VERDE.VATime                        574.24     (Insuf)    472.97     638.87         11    
+PICTURE_VERDE.NVATime                       .00000     (Insuf)    .00000     .00000         11    
+PICTURE_VERDE.WaitTime                      222.59     (Insuf)    .00000     617.35         11    
+PICTURE_VERDE.TranTime                      60.000     (Insuf)    60.000     60.000         11    
+PICTURE_VERDE.OtherTime                     .00000     (Insuf)    .00000     .00000         11    
+PICTURE_VERDE.TotalTime                     856.84     (Insuf)    598.83     1296.4         11    
+PECA.VATime                                     --         --         --         --          0
+PECA.NVATime                                    --         --         --         --          0
+PECA.WaitTime                                   --         --         --         --          0
+PECA.TranTime                                   --         --         --         --          0
+PECA.OtherTime                                  --         --         --         --          0
+PECA.TotalTime                                  --         --         --         --          0
+PICTURE_AZUL.VATime                         302.26     (Insuf)    214.20     362.15          9    
+PICTURE_AZUL.NVATime                        .00000     (Insuf)    .00000     .00000          9    
+PICTURE_AZUL.WaitTime                       213.64     (Insuf)    .00000     620.70          9    
+PICTURE_AZUL.TranTime                       40.000     (Insuf)    40.000     40.000          9    
+PICTURE_AZUL.OtherTime                      .00000     (Insuf)    .00000     .00000          9    
+PICTURE_AZUL.TotalTime                      555.91     (Insuf)    254.20     912.04          9    
+Processo Cortadeira.Queue.WaitingTime       306.68     (Insuf)    .00000     1151.5         18    
+Processo Torno.Queue.WaitingTime            193.08     (Insuf)    .00000     620.70         14    
+Processo Lixadeira.Queue.WaitingTime        75.227     (Insuf)    .00000     261.25         15    
+
+                                     VARIÁVEIS DISCRETAS
+
+Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
+___________________________________________________________________________________________________
+
+PICTURE_VERMELHO.WIP                        1.5778     (Insuf)    .00000     4.0000     4.0000    
+PICTURE_VERDE.WIP                           2.0019     (Insuf)    .00000     5.0000     5.0000    
+PECA.WIP                                    .00000     (Insuf)    .00000     1.0000     .00000    
+PICTURE_AZUL.WIP                            .98155     (Insuf)    .00000     3.0000     3.0000    
+OPERADOR_CORTE.NumberBusy                   .73938     (Insuf)    .00000     1.0000     1.0000    
+OPERADOR_CORTE.NumberScheduled              1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OPERADOR_CORTE.Utilization                  .73938     (Insuf)    .00000     1.0000     1.0000    
+OPERADOR_TORNO.NumberBusy                   .73993     (Insuf)    .00000     1.0000     1.0000    
+OPERADOR_TORNO.NumberScheduled              1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OPERADOR_TORNO.Utilization                  .73993     (Insuf)    .00000     1.0000     1.0000    
+OPERADOR_LIXADEIRA.NumberBusy               .72291     (Insuf)    .00000     1.0000     1.0000    
+OPERADOR_LIXADEIRA.NumberScheduled          1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OPERADOR_LIXADEIRA.Utilization              .72291     (Insuf)    .00000     1.0000     1.0000    
+Processo Cortadeira.Queue.NumberInQueue     1.3344     (Insuf)    .00000     5.0000     5.0000    
+Processo Torno.Queue.NumberInQueue          .57324     (Insuf)    .00000     4.0000     4.0000    
+Processo Lixadeira.Queue.NumberInQueue      .18807     (Insuf)    .00000     1.0000     .00000    
+
+                                             RESULTADOS
+
+Identificador                                   Valor
+_____________________________________________________________
+
+PICTURE_VERMELHO.NumberIn                   7.0000    
+PICTURE_VERMELHO.NumberOut                  3.0000    
+PICTURE_VERDE.NumberIn                      16.000    
+PICTURE_VERDE.NumberOut                     11.000    
+PECA.NumberIn                               35.000    
+PECA.NumberOut                              35.000    
+PICTURE_AZUL.NumberIn                       12.000    
+PICTURE_AZUL.NumberOut                      9.0000    
+OPERADOR_CORTE.NumberSeized                 18.000    
+OPERADOR_CORTE.ScheduledUtilization         .73938    
+OPERADOR_TORNO.NumberSeized                 14.000    
+OPERADOR_TORNO.ScheduledUtilization         .73993    
+OPERADOR_LIXADEIRA.NumberSeized             15.000    
+OPERADOR_LIXADEIRA.ScheduledUtilization     .72291    
+System.NumberOut                            23.000    
+
+Iniciando replicação 2 de 10
+
+                                      ARENA Simulation Results
+                           luizmandradegomes@gmail.com - License: STUDENT
+
+                                  Sumário para Replicação 2 de 10
+
+Projeto: Unnamed Project                                             Data da execução :12/22/2022
+Analista: luizmandradegomes@gmail.com                                 Data de revisão do modelo:12/22/2022
+
+Replicação terminada no tempo de      : 6000.0 Segundos 
+Unidade de Tempo Base: Segundos
+
+                                           VARIÁVEIS DE REGISTRO
+
+Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
+___________________________________________________________________________________________________
+
+PICTURE_VERMELHO.VATime                     920.60     (Insuf)    836.68     972.00          5    
+PICTURE_VERMELHO.NVATime                    .00000     (Insuf)    .00000     .00000          5    
+PICTURE_VERMELHO.WaitTime                   767.11     (Insuf)    509.45     1073.4          5    
+PICTURE_VERMELHO.TranTime                   80.000     (Insuf)    80.000     80.000          5    
+PICTURE_VERMELHO.OtherTime                  .00000     (Insuf)    .00000     .00000          5    
+PICTURE_VERMELHO.TotalTime                  1767.7     (Insuf)    1541.8     2125.4          5    
+PICTURE_VERDE.VATime                        545.20     (Insuf)    450.87     588.89          7    
+PICTURE_VERDE.NVATime                       .00000     (Insuf)    .00000     .00000          7    
+PICTURE_VERDE.WaitTime                      184.38     (Insuf)    .00000     417.76          7    
+PICTURE_VERDE.TranTime                      60.000     (Insuf)    60.000     60.000          7    
+PICTURE_VERDE.OtherTime                     .00000     (Insuf)    .00000     .00000          7    
+PICTURE_VERDE.TotalTime                     789.59     (Insuf)    561.37     1038.2          7    
+PECA.VATime                                     --         --         --         --          0
+PECA.NVATime                                    --         --         --         --          0
+PECA.WaitTime                                   --         --         --         --          0
+PECA.TranTime                                   --         --         --         --          0
+PECA.OtherTime                                  --         --         --         --          0
+PECA.TotalTime                                  --         --         --         --          0
+PICTURE_AZUL.VATime                         299.58     (Insuf)    243.05     351.09         11    
+PICTURE_AZUL.NVATime                        .00000     (Insuf)    .00000     .00000         11    
+PICTURE_AZUL.WaitTime                       451.66     (Insuf)    .00000     1221.2         11    
+PICTURE_AZUL.TranTime                       40.000     (Insuf)    40.000     40.000         11    
+PICTURE_AZUL.OtherTime                      .00000     (Insuf)    .00000     .00000         11    
+PICTURE_AZUL.TotalTime                      791.24     (Insuf)    391.09     1603.2         11    
+Processo Cortadeira.Queue.WaitingTime       132.05     (Insuf)    .00000     361.64         13    
+Processo Torno.Queue.WaitingTime            454.41     (Insuf)    .00000     1221.2         17    
+Processo Lixadeira.Queue.WaitingTime        50.217     (Insuf)    .00000     217.99         13    
+
+                                     VARIÁVEIS DISCRETAS
+
+Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
+___________________________________________________________________________________________________
+
+PICTURE_VERMELHO.WIP                        1.4731     (Insuf)    .00000     3.0000     .00000    
+PICTURE_VERDE.WIP                           .97353     (Insuf)    .00000     3.0000     1.0000    
+PECA.WIP                                    .00000     (Insuf)    .00000     1.0000     .00000    
+PICTURE_AZUL.WIP                            1.5063     (Insuf)    .00000     4.0000     1.0000    
+OPERADOR_CORTE.NumberBusy                   .58476     (Insuf)    .00000     1.0000     .00000    
+OPERADOR_CORTE.NumberScheduled              1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OPERADOR_CORTE.Utilization                  .58476     (Insuf)    .00000     1.0000     .00000    
+OPERADOR_TORNO.NumberBusy                   .92083     (Insuf)    .00000     1.0000     1.0000    
+OPERADOR_TORNO.NumberScheduled              1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OPERADOR_TORNO.Utilization                  .92083     (Insuf)    .00000     1.0000     1.0000    
+OPERADOR_LIXADEIRA.NumberBusy               .54491     (Insuf)    .00000     1.0000     1.0000    
+OPERADOR_LIXADEIRA.NumberScheduled          1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OPERADOR_LIXADEIRA.Utilization              .54491     (Insuf)    .00000     1.0000     1.0000    
+Processo Cortadeira.Queue.NumberInQueue     .28611     (Insuf)    .00000     2.0000     .00000    
+Processo Torno.Queue.NumberInQueue          1.2875     (Insuf)    .00000     4.0000     .00000    
+Processo Lixadeira.Queue.NumberInQueue      .10881     (Insuf)    .00000     1.0000     .00000    
+
+                                             RESULTADOS
+
+Identificador                                   Valor
+_____________________________________________________________
+
+PICTURE_VERMELHO.NumberIn                   5.0000    
+PICTURE_VERMELHO.NumberOut                  5.0000    
+PICTURE_VERDE.NumberIn                      8.0000    
+PICTURE_VERDE.NumberOut                     7.0000    
+PECA.NumberIn                               25.000    
+PECA.NumberOut                              25.000    
+PICTURE_AZUL.NumberIn                       12.000    
+PICTURE_AZUL.NumberOut                      11.000    
+OPERADOR_CORTE.NumberSeized                 13.000    
+OPERADOR_CORTE.ScheduledUtilization         .58476    
+OPERADOR_TORNO.NumberSeized                 17.000    
+OPERADOR_TORNO.ScheduledUtilization         .92083    
+OPERADOR_LIXADEIRA.NumberSeized             13.000    
+OPERADOR_LIXADEIRA.ScheduledUtilization     .54491    
+System.NumberOut                            23.000    
+
+Iniciando replicação 3 de 10
+
+                                      ARENA Simulation Results
+                           luizmandradegomes@gmail.com - License: STUDENT
+
+                                  Sumário para Replicação 3 de 10
+
+Projeto: Unnamed Project                                             Data da execução :12/22/2022
+Analista: luizmandradegomes@gmail.com                                 Data de revisão do modelo:12/22/2022
+
+Replicação terminada no tempo de      : 6000.0 Segundos 
+Unidade de Tempo Base: Segundos
+
+                                           VARIÁVEIS DE REGISTRO
+
+Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
+___________________________________________________________________________________________________
+
+PICTURE_VERMELHO.VATime                     931.91     (Insuf)    831.41     989.27          4    
+PICTURE_VERMELHO.NVATime                    .00000     (Insuf)    .00000     .00000          4    
+PICTURE_VERMELHO.WaitTime                   1469.0     (Insuf)    927.53     1980.5          4    
+PICTURE_VERMELHO.TranTime                   80.000     (Insuf)    80.000     80.000          4    
+PICTURE_VERMELHO.OtherTime                  .00000     (Insuf)    .00000     .00000          4    
+PICTURE_VERMELHO.TotalTime                  2480.9     (Insuf)    1943.9     2891.9          4    
+PICTURE_VERDE.VATime                        551.85     (Insuf)    477.26     638.60          9    
+PICTURE_VERDE.NVATime                       .00000     (Insuf)    .00000     .00000          9    
+PICTURE_VERDE.WaitTime                      256.46     (Insuf)    .00000     701.54          9    
+PICTURE_VERDE.TranTime                      60.000     (Insuf)    60.000     60.000          9    
+PICTURE_VERDE.OtherTime                     .00000     (Insuf)    .00000     .00000          9    
+PICTURE_VERDE.TotalTime                     868.32     (Insuf)    537.26     1358.8          9    
+PECA.VATime                                     --         --         --         --          0
+PECA.NVATime                                    --         --         --         --          0
+PECA.WaitTime                                   --         --         --         --          0
+PECA.TranTime                                   --         --         --         --          0
+PECA.OtherTime                                  --         --         --         --          0
+PECA.TotalTime                                  --         --         --         --          0
+PICTURE_AZUL.VATime                         286.63     (Insuf)    231.81     360.97         13    
+PICTURE_AZUL.NVATime                        .00000     (Insuf)    .00000     .00000         13    
+PICTURE_AZUL.WaitTime                       1101.7     (Insuf)    .00000     2023.1         13    
+PICTURE_AZUL.TranTime                       40.000     (Insuf)    40.000     40.000         13    
+PICTURE_AZUL.OtherTime                      .00000     (Insuf)    .00000     .00000         13    
+PICTURE_AZUL.TotalTime                      1428.3     (Insuf)    374.17     2305.7         13    
+Processo Cortadeira.Queue.WaitingTime       300.33     (Insuf)    .00000     954.89         21    
+Processo Torno.Queue.WaitingTime            1163.9     (Insuf)    .00000     2023.1         18    
+Processo Lixadeira.Queue.WaitingTime        95.585     (Insuf)    .00000     377.09         14    
+
+                                     VARIÁVEIS DISCRETAS
+
+Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
+___________________________________________________________________________________________________
+
+PICTURE_VERMELHO.WIP                        3.2826     (Insuf)    .00000     7.0000     5.0000    
+PICTURE_VERDE.WIP                           1.7822     (Insuf)    .00000     3.0000     3.0000    
+PECA.WIP                                    .00000     (Insuf)    .00000     1.0000     .00000    
+PICTURE_AZUL.WIP                            4.6211     (Insuf)    .00000     7.0000     7.0000    
+OPERADOR_CORTE.NumberBusy                   .90373     (Insuf)    .00000     1.0000     1.0000    
+OPERADOR_CORTE.NumberScheduled              1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OPERADOR_CORTE.Utilization                  .90373     (Insuf)    .00000     1.0000     1.0000    
+OPERADOR_TORNO.NumberBusy                   .95389     (Insuf)    .00000     1.0000     1.0000    
+OPERADOR_TORNO.NumberScheduled              1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OPERADOR_TORNO.Utilization                  .95389     (Insuf)    .00000     1.0000     1.0000    
+OPERADOR_LIXADEIRA.NumberBusy               .62082     (Insuf)    .00000     1.0000     1.0000    
+OPERADOR_LIXADEIRA.NumberScheduled          1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OPERADOR_LIXADEIRA.Utilization              .62082     (Insuf)    .00000     1.0000     1.0000    
+Processo Cortadeira.Queue.NumberInQueue     1.0511     (Insuf)    .00000     4.0000     .00000    
+Processo Torno.Queue.NumberInQueue          5.6251     (Insuf)    .00000     11.000     11.000    
+Processo Lixadeira.Queue.NumberInQueue      .22796     (Insuf)    .00000     2.0000     1.0000    
+
+                                             RESULTADOS
+
+Identificador                                   Valor
+_____________________________________________________________
+
+PICTURE_VERMELHO.NumberIn                   9.0000    
+PICTURE_VERMELHO.NumberOut                  4.0000    
+PICTURE_VERDE.NumberIn                      12.000    
+PICTURE_VERDE.NumberOut                     9.0000    
+PECA.NumberIn                               41.000    
+PECA.NumberOut                              41.000    
+PICTURE_AZUL.NumberIn                       20.000    
+PICTURE_AZUL.NumberOut                      13.000    
+OPERADOR_CORTE.NumberSeized                 21.000    
+OPERADOR_CORTE.ScheduledUtilization         .90373    
+OPERADOR_TORNO.NumberSeized                 18.000    
+OPERADOR_TORNO.ScheduledUtilization         .95389    
+OPERADOR_LIXADEIRA.NumberSeized             14.000    
+OPERADOR_LIXADEIRA.ScheduledUtilization     .62082    
+System.NumberOut                            26.000    
+
+Iniciando replicação 4 de 10
+
+                                      ARENA Simulation Results
+                           luizmandradegomes@gmail.com - License: STUDENT
+
+                                  Sumário para Replicação 4 de 10
+
+Projeto: Unnamed Project                                             Data da execução :12/22/2022
+Analista: luizmandradegomes@gmail.com                                 Data de revisão do modelo:12/22/2022
+
+Replicação terminada no tempo de      : 6000.0 Segundos 
+Unidade de Tempo Base: Segundos
+
+                                           VARIÁVEIS DE REGISTRO
+
+Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
+___________________________________________________________________________________________________
+
+PICTURE_VERMELHO.VATime                     968.47     (Insuf)    891.28     1033.8          3    
+PICTURE_VERMELHO.NVATime                    .00000     (Insuf)    .00000     .00000          3    
+PICTURE_VERMELHO.WaitTime                   301.71     (Insuf)    151.59     592.89          3    
+PICTURE_VERMELHO.TranTime                   80.000     (Insuf)    80.000     80.000          3    
+PICTURE_VERMELHO.OtherTime                  .00000     (Insuf)    .00000     .00000          3    
+PICTURE_VERMELHO.TotalTime                  1350.1     (Insuf)    1211.9     1564.1          3    
+PICTURE_VERDE.VATime                        570.33     (Insuf)    513.30     628.60         11    
+PICTURE_VERDE.NVATime                       .00000     (Insuf)    .00000     .00000         11    
+PICTURE_VERDE.WaitTime                      390.28     (Insuf)    .00000     843.91         11    
+PICTURE_VERDE.TranTime                      60.000     (Insuf)    60.000     60.000         11    
+PICTURE_VERDE.OtherTime                     .00000     (Insuf)    .00000     .00000         11    
+PICTURE_VERDE.TotalTime                     1020.6     (Insuf)    687.56     1433.3         11    
+PECA.VATime                                     --         --         --         --          0
+PECA.NVATime                                    --         --         --         --          0
+PECA.WaitTime                                   --         --         --         --          0
+PECA.TranTime                                   --         --         --         --          0
+PECA.OtherTime                                  --         --         --         --          0
+PECA.TotalTime                                  --         --         --         --          0
+PICTURE_AZUL.VATime                         288.03     (Insuf)    216.52     336.18         12    
+PICTURE_AZUL.NVATime                        .00000     (Insuf)    .00000     .00000         12    
+PICTURE_AZUL.WaitTime                       315.25     (Insuf)    .00000     770.93         12    
+PICTURE_AZUL.TranTime                       40.000     (Insuf)    40.000     40.000         12    
+PICTURE_AZUL.OtherTime                      .00000     (Insuf)    .00000     .00000         12    
+PICTURE_AZUL.TotalTime                      643.29     (Insuf)    302.22     1027.4         12    
+Processo Cortadeira.Queue.WaitingTime       131.67     (Insuf)    .00000     355.10         15    
+Processo Torno.Queue.WaitingTime            268.83     (Insuf)    .00000     770.93         16    
+Processo Lixadeira.Queue.WaitingTime        193.20     (Insuf)    .00000     582.71         14    
+
+                                     VARIÁVEIS DISCRETAS
+
+Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
+___________________________________________________________________________________________________
+
+PICTURE_VERMELHO.WIP                        .67509     (Insuf)    .00000     1.0000     .00000    
+PICTURE_VERDE.WIP                           1.9183     (Insuf)    .00000     5.0000     1.0000    
+PECA.WIP                                    .00000     (Insuf)    .00000     1.0000     .00000    
+PICTURE_AZUL.WIP                            1.3908     (Insuf)    .00000     4.0000     3.0000    
+OPERADOR_CORTE.NumberBusy                   .65378     (Insuf)    .00000     1.0000     .00000    
+OPERADOR_CORTE.NumberScheduled              1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OPERADOR_CORTE.Utilization                  .65378     (Insuf)    .00000     1.0000     .00000    
+OPERADOR_TORNO.NumberBusy                   .83254     (Insuf)    .00000     1.0000     1.0000    
+OPERADOR_TORNO.NumberScheduled              1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OPERADOR_TORNO.Utilization                  .83254     (Insuf)    .00000     1.0000     1.0000    
+OPERADOR_LIXADEIRA.NumberBusy               .69758     (Insuf)    .00000     1.0000     .00000    
+OPERADOR_LIXADEIRA.NumberScheduled          1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OPERADOR_LIXADEIRA.Utilization              .69758     (Insuf)    .00000     1.0000     .00000    
+Processo Cortadeira.Queue.NumberInQueue     .32918     (Insuf)    .00000     2.0000     .00000    
+Processo Torno.Queue.NumberInQueue          .77659     (Insuf)    .00000     3.0000     2.0000    
+Processo Lixadeira.Queue.NumberInQueue      .45082     (Insuf)    .00000     2.0000     .00000    
+
+                                             RESULTADOS
+
+Identificador                                   Valor
+_____________________________________________________________
+
+PICTURE_VERMELHO.NumberIn                   3.0000    
+PICTURE_VERMELHO.NumberOut                  3.0000    
+PICTURE_VERDE.NumberIn                      12.000    
+PICTURE_VERDE.NumberOut                     11.000    
+PECA.NumberIn                               30.000    
+PECA.NumberOut                              30.000    
+PICTURE_AZUL.NumberIn                       15.000    
+PICTURE_AZUL.NumberOut                      12.000    
+OPERADOR_CORTE.NumberSeized                 15.000    
+OPERADOR_CORTE.ScheduledUtilization         .65378    
+OPERADOR_TORNO.NumberSeized                 16.000    
+OPERADOR_TORNO.ScheduledUtilization         .83254    
+OPERADOR_LIXADEIRA.NumberSeized             14.000    
+OPERADOR_LIXADEIRA.ScheduledUtilization     .69758    
+System.NumberOut                            26.000    
+
+Iniciando replicação 5 de 10
+
+                                      ARENA Simulation Results
+                           luizmandradegomes@gmail.com - License: STUDENT
+
+                                  Sumário para Replicação 5 de 10
+
+Projeto: Unnamed Project                                             Data da execução :12/22/2022
+Analista: luizmandradegomes@gmail.com                                 Data de revisão do modelo:12/22/2022
+
+Replicação terminada no tempo de      : 6000.0 Segundos 
+Unidade de Tempo Base: Segundos
+
+                                           VARIÁVEIS DE REGISTRO
+
+Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
+___________________________________________________________________________________________________
+
+PICTURE_VERMELHO.VATime                     910.49     (Insuf)    738.93     1040.5          5    
+PICTURE_VERMELHO.NVATime                    .00000     (Insuf)    .00000     .00000          5    
+PICTURE_VERMELHO.WaitTime                   742.96     (Insuf)    220.31     1313.8          5    
+PICTURE_VERMELHO.TranTime                   80.000     (Insuf)    80.000     80.000          5    
+PICTURE_VERMELHO.OtherTime                  .00000     (Insuf)    .00000     .00000          5    
+PICTURE_VERMELHO.TotalTime                  1733.4     (Insuf)    1104.4     2434.4          5    
+PICTURE_VERDE.VATime                        509.98     (Insuf)    445.76     553.63          8    
+PICTURE_VERDE.NVATime                       .00000     (Insuf)    .00000     .00000          8    
+PICTURE_VERDE.WaitTime                      214.52     (Insuf)    .00000     603.49          8    
+PICTURE_VERDE.TranTime                      60.000     (Insuf)    60.000     60.000          8    
+PICTURE_VERDE.OtherTime                     .00000     (Insuf)    .00000     .00000          8    
+PICTURE_VERDE.TotalTime                     784.50     (Insuf)    556.68     1150.5          8    
+PECA.VATime                                     --         --         --         --          0
+PECA.NVATime                                    --         --         --         --          0
+PECA.WaitTime                                   --         --         --         --          0
+PECA.TranTime                                   --         --         --         --          0
+PECA.OtherTime                                  --         --         --         --          0
+PECA.TotalTime                                  --         --         --         --          0
+PICTURE_AZUL.VATime                         269.44     (Insuf)    223.17     317.34         12    
+PICTURE_AZUL.NVATime                        .00000     (Insuf)    .00000     .00000         12    
+PICTURE_AZUL.WaitTime                       537.61     (Insuf)    87.665     1159.9         12    
+PICTURE_AZUL.TranTime                       40.000     (Insuf)    40.000     40.000         12    
+PICTURE_AZUL.OtherTime                      .00000     (Insuf)    .00000     .00000         12    
+PICTURE_AZUL.TotalTime                      847.05     (Insuf)    373.31     1480.2         12    
+Processo Cortadeira.Queue.WaitingTime       208.76     (Insuf)    .00000     664.71         17    
+Processo Torno.Queue.WaitingTime            525.29     (Insuf)    .00000     1159.9         19    
+Processo Lixadeira.Queue.WaitingTime        78.437     (Insuf)    .00000     268.22         14    
+
+                                     VARIÁVEIS DISCRETAS
+
+Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
+___________________________________________________________________________________________________
+
+PICTURE_VERMELHO.WIP                        1.8742     (Insuf)    .00000     4.0000     2.0000    
+PICTURE_VERDE.WIP                           1.2363     (Insuf)    .00000     4.0000     2.0000    
+PECA.WIP                                    .00000     (Insuf)    .00000     1.0000     .00000    
+PICTURE_AZUL.WIP                            2.1901     (Insuf)    .00000     5.0000     4.0000    
+OPERADOR_CORTE.NumberBusy                   .68256     (Insuf)    .00000     1.0000     1.0000    
+OPERADOR_CORTE.NumberScheduled              1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OPERADOR_CORTE.Utilization                  .68256     (Insuf)    .00000     1.0000     1.0000    
+OPERADOR_TORNO.NumberBusy                   .94296     (Insuf)    .00000     1.0000     1.0000    
+OPERADOR_TORNO.NumberScheduled              1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OPERADOR_TORNO.Utilization                  .94296     (Insuf)    .00000     1.0000     1.0000    
+OPERADOR_LIXADEIRA.NumberBusy               .58587     (Insuf)    .00000     1.0000     1.0000    
+OPERADOR_LIXADEIRA.NumberScheduled          1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OPERADOR_LIXADEIRA.Utilization              .58587     (Insuf)    .00000     1.0000     1.0000    
+Processo Cortadeira.Queue.NumberInQueue     .59150     (Insuf)    .00000     3.0000     .00000    
+Processo Torno.Queue.NumberInQueue          2.0301     (Insuf)    .00000     5.0000     4.0000    
+Processo Lixadeira.Queue.NumberInQueue      .20108     (Insuf)    .00000     2.0000     1.0000    
+
+                                             RESULTADOS
+
+Identificador                                   Valor
+_____________________________________________________________
+
+PICTURE_VERMELHO.NumberIn                   7.0000    
+PICTURE_VERMELHO.NumberOut                  5.0000    
+PICTURE_VERDE.NumberIn                      10.000    
+PICTURE_VERDE.NumberOut                     8.0000    
+PECA.NumberIn                               33.000    
+PECA.NumberOut                              33.000    
+PICTURE_AZUL.NumberIn                       16.000    
+PICTURE_AZUL.NumberOut                      12.000    
+OPERADOR_CORTE.NumberSeized                 17.000    
+OPERADOR_CORTE.ScheduledUtilization         .68256    
+OPERADOR_TORNO.NumberSeized                 19.000    
+OPERADOR_TORNO.ScheduledUtilization         .94296    
+OPERADOR_LIXADEIRA.NumberSeized             14.000    
+OPERADOR_LIXADEIRA.ScheduledUtilization     .58587    
+System.NumberOut                            25.000    
+
+Iniciando replicação 6 de 10
+
+                                      ARENA Simulation Results
+                           luizmandradegomes@gmail.com - License: STUDENT
+
+                                  Sumário para Replicação 6 de 10
+
+Projeto: Unnamed Project                                             Data da execução :12/22/2022
+Analista: luizmandradegomes@gmail.com                                 Data de revisão do modelo:12/22/2022
+
+Replicação terminada no tempo de      : 6000.0 Segundos 
+Unidade de Tempo Base: Segundos
+
+                                           VARIÁVEIS DE REGISTRO
+
+Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
+___________________________________________________________________________________________________
+
+PICTURE_VERMELHO.VATime                     908.84     (Insuf)    874.92     927.40          3    
+PICTURE_VERMELHO.NVATime                    .00000     (Insuf)    .00000     .00000          3    
+PICTURE_VERMELHO.WaitTime                   374.19     (Insuf)    139.24     726.10          3    
+PICTURE_VERMELHO.TranTime                   80.000     (Insuf)    80.000     80.000          3    
+PICTURE_VERMELHO.OtherTime                  .00000     (Insuf)    .00000     .00000          3    
+PICTURE_VERMELHO.TotalTime                  1363.0     (Insuf)    1143.4     1733.5          3    
+PICTURE_VERDE.VATime                        546.47     (Insuf)    503.51     573.87          7    
+PICTURE_VERDE.NVATime                       .00000     (Insuf)    .00000     .00000          7    
+PICTURE_VERDE.WaitTime                      184.06     (Insuf)    .00000     451.70          7    
+PICTURE_VERDE.TranTime                      60.000     (Insuf)    60.000     60.000          7    
+PICTURE_VERDE.OtherTime                     .00000     (Insuf)    .00000     .00000          7    
+PICTURE_VERDE.TotalTime                     790.53     (Insuf)    598.50     1015.2          7    
+PECA.VATime                                     --         --         --         --          0
+PECA.NVATime                                    --         --         --         --          0
+PECA.WaitTime                                   --         --         --         --          0
+PECA.TranTime                                   --         --         --         --          0
+PECA.OtherTime                                  --         --         --         --          0
+PECA.TotalTime                                  --         --         --         --          0
+PICTURE_AZUL.VATime                         324.35     (Insuf)    246.72     393.64         13    
+PICTURE_AZUL.NVATime                        .00000     (Insuf)    .00000     .00000         13    
+PICTURE_AZUL.WaitTime                       297.37     (Insuf)    .00000     967.25         13    
+PICTURE_AZUL.TranTime                       40.000     (Insuf)    40.000     40.000         13    
+PICTURE_AZUL.OtherTime                      .00000     (Insuf)    .00000     .00000         13    
+PICTURE_AZUL.TotalTime                      661.72     (Insuf)    363.09     1352.1         13    
+Processo Cortadeira.Queue.WaitingTime       65.704     (Insuf)    .00000     263.78         12    
+Processo Torno.Queue.WaitingTime            364.54     (Insuf)    .00000     975.36         18    
+Processo Lixadeira.Queue.WaitingTime        75.862     (Insuf)    .00000     291.28         11    
+
+                                     VARIÁVEIS DISCRETAS
+
+Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
+___________________________________________________________________________________________________
+
+PICTURE_VERMELHO.WIP                        .98277     (Insuf)    .00000     2.0000     1.0000    
+PICTURE_VERDE.WIP                           .96966     (Insuf)    .00000     4.0000     1.0000    
+PECA.WIP                                    .00000     (Insuf)    .00000     1.0000     .00000    
+PICTURE_AZUL.WIP                            1.9226     (Insuf)    .00000     6.0000     6.0000    
+OPERADOR_CORTE.NumberBusy                   .50548     (Insuf)    .00000     1.0000     1.0000    
+OPERADOR_CORTE.NumberScheduled              1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OPERADOR_CORTE.Utilization                  .50548     (Insuf)    .00000     1.0000     1.0000    
+OPERADOR_TORNO.NumberBusy                   .98398     (Insuf)    .00000     1.0000     1.0000    
+OPERADOR_TORNO.NumberScheduled              1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OPERADOR_TORNO.Utilization                  .98398     (Insuf)    .00000     1.0000     1.0000    
+OPERADOR_LIXADEIRA.NumberBusy               .51519     (Insuf)    .00000     1.0000     .00000    
+OPERADOR_LIXADEIRA.NumberScheduled          1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OPERADOR_LIXADEIRA.Utilization              .51519     (Insuf)    .00000     1.0000     .00000    
+Processo Cortadeira.Queue.NumberInQueue     .13141     (Insuf)    .00000     2.0000     .00000    
+Processo Torno.Queue.NumberInQueue          1.3693     (Insuf)    .00000     5.0000     5.0000    
+Processo Lixadeira.Queue.NumberInQueue      .13908     (Insuf)    .00000     1.0000     .00000    
+
+                                             RESULTADOS
+
+Identificador                                   Valor
+_____________________________________________________________
+
+PICTURE_VERMELHO.NumberIn                   4.0000    
+PICTURE_VERMELHO.NumberOut                  3.0000    
+PICTURE_VERDE.NumberIn                      8.0000    
+PICTURE_VERDE.NumberOut                     7.0000    
+PECA.NumberIn                               31.000    
+PECA.NumberOut                              31.000    
+PICTURE_AZUL.NumberIn                       19.000    
+PICTURE_AZUL.NumberOut                      13.000    
+OPERADOR_CORTE.NumberSeized                 12.000    
+OPERADOR_CORTE.ScheduledUtilization         .50548    
+OPERADOR_TORNO.NumberSeized                 18.000    
+OPERADOR_TORNO.ScheduledUtilization         .98398    
+OPERADOR_LIXADEIRA.NumberSeized             11.000    
+OPERADOR_LIXADEIRA.ScheduledUtilization     .51519    
+System.NumberOut                            23.000    
+
+Iniciando replicação 7 de 10
+
+                                      ARENA Simulation Results
+                           luizmandradegomes@gmail.com - License: STUDENT
+
+                                  Sumário para Replicação 7 de 10
+
+Projeto: Unnamed Project                                             Data da execução :12/22/2022
+Analista: luizmandradegomes@gmail.com                                 Data de revisão do modelo:12/22/2022
+
+Replicação terminada no tempo de      : 6000.0 Segundos 
+Unidade de Tempo Base: Segundos
+
+                                           VARIÁVEIS DE REGISTRO
+
+Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
+___________________________________________________________________________________________________
+
+PICTURE_VERMELHO.VATime                     944.50     (Insuf)    941.34     948.30          3    
+PICTURE_VERMELHO.NVATime                    .00000     (Insuf)    .00000     .00000          3    
+PICTURE_VERMELHO.WaitTime                   472.82     (Insuf)    .00000     1227.3          3    
+PICTURE_VERMELHO.TranTime                   80.000     (Insuf)    80.000     80.000          3    
+PICTURE_VERMELHO.OtherTime                  .00000     (Insuf)    .00000     .00000          3    
+PICTURE_VERMELHO.TotalTime                  1497.3     (Insuf)    1023.8     2248.7          3    
+PICTURE_VERDE.VATime                        566.30     (Insuf)    525.09     634.09          8    
+PICTURE_VERDE.NVATime                       .00000     (Insuf)    .00000     .00000          8    
+PICTURE_VERDE.WaitTime                      92.298     (Insuf)    .00000     330.36          8    
+PICTURE_VERDE.TranTime                      60.000     (Insuf)    60.000     60.000          8    
+PICTURE_VERDE.OtherTime                     .00000     (Insuf)    .00000     .00000          8    
+PICTURE_VERDE.TotalTime                     718.60     (Insuf)    585.09     929.70          8    
+PECA.VATime                                     --         --         --         --          0
+PECA.NVATime                                    --         --         --         --          0
+PECA.WaitTime                                   --         --         --         --          0
+PECA.TranTime                                   --         --         --         --          0
+PECA.OtherTime                                  --         --         --         --          0
+PECA.TotalTime                                  --         --         --         --          0
+PICTURE_AZUL.VATime                         307.74     (Insuf)    246.75     336.64          6    
+PICTURE_AZUL.NVATime                        .00000     (Insuf)    .00000     .00000          6    
+PICTURE_AZUL.WaitTime                       248.49     (Insuf)    .00000     608.95          6    
+PICTURE_AZUL.TranTime                       40.000     (Insuf)    40.000     40.000          6    
+PICTURE_AZUL.OtherTime                      .00000     (Insuf)    .00000     .00000          6    
+PICTURE_AZUL.TotalTime                      596.23     (Insuf)    317.48     972.45          6    
+Processo Cortadeira.Queue.WaitingTime       42.697     (Insuf)    .00000     310.77         13    
+Processo Torno.Queue.WaitingTime            240.75     (Insuf)    .00000     916.57         10    
+Processo Lixadeira.Queue.WaitingTime        62.157     (Insuf)    .00000     205.27         12    
+
+                                     VARIÁVEIS DISCRETAS
+
+Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
+___________________________________________________________________________________________________
+
+PICTURE_VERMELHO.WIP                        .74867     (Insuf)    .00000     2.0000     .00000    
+PICTURE_VERDE.WIP                           1.0599     (Insuf)    .00000     3.0000     2.0000    
+PECA.WIP                                    .00000     (Insuf)    .00000     1.0000     .00000    
+PICTURE_AZUL.WIP                            .61587     (Insuf)    .00000     3.0000     1.0000    
+OPERADOR_CORTE.NumberBusy                   .54116     (Insuf)    .00000     1.0000     1.0000    
+OPERADOR_CORTE.NumberScheduled              1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OPERADOR_CORTE.Utilization                  .54116     (Insuf)    .00000     1.0000     1.0000    
+OPERADOR_TORNO.NumberBusy                   .51380     (Insuf)    .00000     1.0000     1.0000    
+OPERADOR_TORNO.NumberScheduled              1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OPERADOR_TORNO.Utilization                  .51380     (Insuf)    .00000     1.0000     1.0000    
+OPERADOR_LIXADEIRA.NumberBusy               .57815     (Insuf)    .00000     1.0000     1.0000    
+OPERADOR_LIXADEIRA.NumberScheduled          1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OPERADOR_LIXADEIRA.Utilization              .57815     (Insuf)    .00000     1.0000     1.0000    
+Processo Cortadeira.Queue.NumberInQueue     .09251     (Insuf)    .00000     1.0000     .00000    
+Processo Torno.Queue.NumberInQueue          .40125     (Insuf)    .00000     4.0000     .00000    
+Processo Lixadeira.Queue.NumberInQueue      .12431     (Insuf)    .00000     1.0000     .00000    
+
+                                             RESULTADOS
+
+Identificador                                   Valor
+_____________________________________________________________
+
+PICTURE_VERMELHO.NumberIn                   3.0000    
+PICTURE_VERMELHO.NumberOut                  3.0000    
+PICTURE_VERDE.NumberIn                      10.000    
+PICTURE_VERDE.NumberOut                     8.0000    
+PECA.NumberIn                               20.000    
+PECA.NumberOut                              20.000    
+PICTURE_AZUL.NumberIn                       7.0000    
+PICTURE_AZUL.NumberOut                      6.0000    
+OPERADOR_CORTE.NumberSeized                 13.000    
+OPERADOR_CORTE.ScheduledUtilization         .54116    
+OPERADOR_TORNO.NumberSeized                 10.000    
+OPERADOR_TORNO.ScheduledUtilization         .51380    
+OPERADOR_LIXADEIRA.NumberSeized             12.000    
+OPERADOR_LIXADEIRA.ScheduledUtilization     .57815    
+System.NumberOut                            17.000    
+
+Iniciando replicação 8 de 10
+
+                                      ARENA Simulation Results
+                           luizmandradegomes@gmail.com - License: STUDENT
+
+                                  Sumário para Replicação 8 de 10
+
+Projeto: Unnamed Project                                             Data da execução :12/22/2022
+Analista: luizmandradegomes@gmail.com                                 Data de revisão do modelo:12/22/2022
+
+Replicação terminada no tempo de      : 6000.0 Segundos 
+Unidade de Tempo Base: Segundos
+
+                                           VARIÁVEIS DE REGISTRO
+
+Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
+___________________________________________________________________________________________________
+
+PICTURE_VERMELHO.VATime                     928.88     (Insuf)    883.34     952.49          4    
+PICTURE_VERMELHO.NVATime                    .00000     (Insuf)    .00000     .00000          4    
+PICTURE_VERMELHO.WaitTime                   285.81     (Insuf)    51.454     564.85          4    
+PICTURE_VERMELHO.TranTime                   80.000     (Insuf)    80.000     80.000          4    
+PICTURE_VERMELHO.OtherTime                  .00000     (Insuf)    .00000     .00000          4    
+PICTURE_VERMELHO.TotalTime                  1294.7     (Insuf)    1083.9     1594.7          4    
+PICTURE_VERDE.VATime                        544.05     (Insuf)    457.58     604.00          6    
+PICTURE_VERDE.NVATime                       .00000     (Insuf)    .00000     .00000          6    
+PICTURE_VERDE.WaitTime                      89.514     (Insuf)    .00000     329.79          6    
+PICTURE_VERDE.TranTime                      60.000     (Insuf)    60.000     60.000          6    
+PICTURE_VERDE.OtherTime                     .00000     (Insuf)    .00000     .00000          6    
+PICTURE_VERDE.TotalTime                     693.57     (Insuf)    528.65     993.79          6    
+PECA.VATime                                     --         --         --         --          0
+PECA.NVATime                                    --         --         --         --          0
+PECA.WaitTime                                   --         --         --         --          0
+PECA.TranTime                                   --         --         --         --          0
+PECA.OtherTime                                  --         --         --         --          0
+PECA.TotalTime                                  --         --         --         --          0
+PICTURE_AZUL.VATime                         302.30     (Insuf)    226.33     355.12          8    
+PICTURE_AZUL.NVATime                        .00000     (Insuf)    .00000     .00000          8    
+PICTURE_AZUL.WaitTime                       292.30     (Insuf)    .00000     556.93          8    
+PICTURE_AZUL.TranTime                       40.000     (Insuf)    40.000     40.000          8    
+PICTURE_AZUL.OtherTime                      .00000     (Insuf)    .00000     .00000          8    
+PICTURE_AZUL.TotalTime                      634.61     (Insuf)    266.33     952.06          8    
+Processo Cortadeira.Queue.WaitingTime       183.29     (Insuf)    .00000     756.48         14    
+Processo Torno.Queue.WaitingTime            273.72     (Insuf)    .00000     556.93         13    
+Processo Lixadeira.Queue.WaitingTime        10.558     (Insuf)    .00000     64.066         11    
+
+                                     VARIÁVEIS DISCRETAS
+
+Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
+___________________________________________________________________________________________________
+
+PICTURE_VERMELHO.WIP                        1.1691     (Insuf)    .00000     2.0000     2.0000    
+PICTURE_VERDE.WIP                           1.1459     (Insuf)    .00000     4.0000     3.0000    
+PECA.WIP                                    .00000     (Insuf)    .00000     1.0000     .00000    
+PICTURE_AZUL.WIP                            .84615     (Insuf)    .00000     3.0000     .00000    
+OPERADOR_CORTE.NumberBusy                   .57604     (Insuf)    .00000     1.0000     1.0000    
+OPERADOR_CORTE.NumberScheduled              1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OPERADOR_CORTE.Utilization                  .57604     (Insuf)    .00000     1.0000     1.0000    
+OPERADOR_TORNO.NumberBusy                   .76192     (Insuf)    .00000     1.0000     .00000    
+OPERADOR_TORNO.NumberScheduled              1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OPERADOR_TORNO.Utilization                  .76192     (Insuf)    .00000     1.0000     .00000    
+OPERADOR_LIXADEIRA.NumberBusy               .48263     (Insuf)    .00000     1.0000     1.0000    
+OPERADOR_LIXADEIRA.NumberScheduled          1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OPERADOR_LIXADEIRA.Utilization              .48263     (Insuf)    .00000     1.0000     1.0000    
+Processo Cortadeira.Queue.NumberInQueue     .52817     (Insuf)    .00000     4.0000     1.0000    
+Processo Torno.Queue.NumberInQueue          .59306     (Insuf)    .00000     2.0000     .00000    
+Processo Lixadeira.Queue.NumberInQueue      .02271     (Insuf)    .00000     2.0000     2.0000    
+
+                                             RESULTADOS
+
+Identificador                                   Valor
+_____________________________________________________________
+
+PICTURE_VERMELHO.NumberIn                   6.0000    
+PICTURE_VERMELHO.NumberOut                  4.0000    
+PICTURE_VERDE.NumberIn                      9.0000    
+PICTURE_VERDE.NumberOut                     6.0000    
+PECA.NumberIn                               23.000    
+PECA.NumberOut                              23.000    
+PICTURE_AZUL.NumberIn                       8.0000    
+PICTURE_AZUL.NumberOut                      8.0000    
+OPERADOR_CORTE.NumberSeized                 14.000    
+OPERADOR_CORTE.ScheduledUtilization         .57604    
+OPERADOR_TORNO.NumberSeized                 13.000    
+OPERADOR_TORNO.ScheduledUtilization         .76192    
+OPERADOR_LIXADEIRA.NumberSeized             11.000    
+OPERADOR_LIXADEIRA.ScheduledUtilization     .48263    
+System.NumberOut                            18.000    
+
+Iniciando replicação 9 de 10
+
+                                      ARENA Simulation Results
+                           luizmandradegomes@gmail.com - License: STUDENT
+
+                                  Sumário para Replicação 9 de 10
+
+Projeto: Unnamed Project                                             Data da execução :12/22/2022
+Analista: luizmandradegomes@gmail.com                                 Data de revisão do modelo:12/22/2022
+
+Replicação terminada no tempo de      : 6000.0 Segundos 
+Unidade de Tempo Base: Segundos
+
+                                           VARIÁVEIS DE REGISTRO
+
+Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
+___________________________________________________________________________________________________
+
+PICTURE_VERMELHO.VATime                     892.10     (Insuf)    859.69     929.38          3    
+PICTURE_VERMELHO.NVATime                    .00000     (Insuf)    .00000     .00000          3    
+PICTURE_VERMELHO.WaitTime                   762.60     (Insuf)    266.38     1070.2          3    
+PICTURE_VERMELHO.TranTime                   80.000     (Insuf)    80.000     80.000          3    
+PICTURE_VERMELHO.OtherTime                  .00000     (Insuf)    .00000     .00000          3    
+PICTURE_VERMELHO.TotalTime                  1734.7     (Insuf)    1275.7     2009.9          3    
+PICTURE_VERDE.VATime                        545.78     (Insuf)    474.95     611.98         14    
+PICTURE_VERDE.NVATime                       .00000     (Insuf)    .00000     .00000         14    
+PICTURE_VERDE.WaitTime                      422.37     (Insuf)    .00000     976.52         14    
+PICTURE_VERDE.TranTime                      60.000     (Insuf)    60.000     60.000         14    
+PICTURE_VERDE.OtherTime                     .00000     (Insuf)    .00000     .00000         14    
+PICTURE_VERDE.TotalTime                     1028.1     (Insuf)    624.07     1511.4         14    
+PECA.VATime                                     --         --         --         --          0
+PECA.NVATime                                    --         --         --         --          0
+PECA.WaitTime                                   --         --         --         --          0
+PECA.TranTime                                   --         --         --         --          0
+PECA.OtherTime                                  --         --         --         --          0
+PECA.TotalTime                                  --         --         --         --          0
+PICTURE_AZUL.VATime                         289.63     (Insuf)    231.85     377.16         11    
+PICTURE_AZUL.NVATime                        .00000     (Insuf)    .00000     .00000         11    
+PICTURE_AZUL.WaitTime                       784.82     (Insuf)    .00000     1496.9         11    
+PICTURE_AZUL.TranTime                       40.000     (Insuf)    40.000     40.000         11    
+PICTURE_AZUL.OtherTime                      .00000     (Insuf)    .00000     .00000         11    
+PICTURE_AZUL.TotalTime                      1114.4     (Insuf)    271.86     1776.7         11    
+Processo Cortadeira.Queue.WaitingTime       155.67     (Insuf)    .00000     407.31         21    
+Processo Torno.Queue.WaitingTime            744.24     (Insuf)    .00000     1496.9         16    
+Processo Lixadeira.Queue.WaitingTime        249.21     (Insuf)    .00000     602.52         18    
+
+                                     VARIÁVEIS DISCRETAS
+
+Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
+___________________________________________________________________________________________________
+
+PICTURE_VERMELHO.WIP                        1.5066     (Insuf)    .00000     4.0000     4.0000    
+PICTURE_VERDE.WIP                           2.4913     (Insuf)    .00000     5.0000     1.0000    
+PECA.WIP                                    .00000     (Insuf)    .00000     1.0000     .00000    
+PICTURE_AZUL.WIP                            2.3312     (Insuf)    .00000     5.0000     2.0000    
+OPERADOR_CORTE.NumberBusy                   .85457     (Insuf)    .00000     1.0000     1.0000    
+OPERADOR_CORTE.NumberScheduled              1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OPERADOR_CORTE.Utilization                  .85457     (Insuf)    .00000     1.0000     1.0000    
+OPERADOR_TORNO.NumberBusy                   .81151     (Insuf)    .00000     1.0000     1.0000    
+OPERADOR_TORNO.NumberScheduled              1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OPERADOR_TORNO.Utilization                  .81151     (Insuf)    .00000     1.0000     1.0000    
+OPERADOR_LIXADEIRA.NumberBusy               .85065     (Insuf)    .00000     1.0000     1.0000    
+OPERADOR_LIXADEIRA.NumberScheduled          1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OPERADOR_LIXADEIRA.Utilization              .85065     (Insuf)    .00000     1.0000     1.0000    
+Processo Cortadeira.Queue.NumberInQueue     .54485     (Insuf)    .00000     2.0000     .00000    
+Processo Torno.Queue.NumberInQueue          2.2327     (Insuf)    .00000     5.0000     3.0000    
+Processo Lixadeira.Queue.NumberInQueue      .74764     (Insuf)    .00000     3.0000     .00000    
+
+                                             RESULTADOS
+
+Identificador                                   Valor
+_____________________________________________________________
+
+PICTURE_VERMELHO.NumberIn                   7.0000    
+PICTURE_VERMELHO.NumberOut                  3.0000    
+PICTURE_VERDE.NumberIn                      15.000    
+PICTURE_VERDE.NumberOut                     14.000    
+PECA.NumberIn                               35.000    
+PECA.NumberOut                              35.000    
+PICTURE_AZUL.NumberIn                       13.000    
+PICTURE_AZUL.NumberOut                      11.000    
+OPERADOR_CORTE.NumberSeized                 21.000    
+OPERADOR_CORTE.ScheduledUtilization         .85457    
+OPERADOR_TORNO.NumberSeized                 16.000    
+OPERADOR_TORNO.ScheduledUtilization         .81151    
+OPERADOR_LIXADEIRA.NumberSeized             18.000    
+OPERADOR_LIXADEIRA.ScheduledUtilization     .85065    
+System.NumberOut                            28.000    
+
+Iniciando replicação 10 de 10
+
+                                      ARENA Simulation Results
+                           luizmandradegomes@gmail.com - License: STUDENT
+
+                                  Sumário para Replicação 10 de 10
+
+Projeto: Unnamed Project                                             Data da execução :12/22/2022
+Analista: luizmandradegomes@gmail.com                                 Data de revisão do modelo:12/22/2022
+
+Replicação terminada no tempo de      : 6000.0 Segundos 
+Unidade de Tempo Base: Segundos
+
+                                           VARIÁVEIS DE REGISTRO
+
+Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
+___________________________________________________________________________________________________
+
+PICTURE_VERMELHO.VATime                     852.00     (Insuf)    803.65     890.69          3    
+PICTURE_VERMELHO.NVATime                    .00000     (Insuf)    .00000     .00000          3    
+PICTURE_VERMELHO.WaitTime                   467.22     (Insuf)    .00000     878.64          3    
+PICTURE_VERMELHO.TranTime                   80.000     (Insuf)    80.000     80.000          3    
+PICTURE_VERMELHO.OtherTime                  .00000     (Insuf)    .00000     .00000          3    
+PICTURE_VERMELHO.TotalTime                  1399.2     (Insuf)    883.65     1849.3          3    
+PICTURE_VERDE.VATime                        539.65     (Insuf)    432.83     621.43          8    
+PICTURE_VERDE.NVATime                       .00000     (Insuf)    .00000     .00000          8    
+PICTURE_VERDE.WaitTime                      279.58     (Insuf)    .00000     755.13          8    
+PICTURE_VERDE.TranTime                      60.000     (Insuf)    60.000     60.000          8    
+PICTURE_VERDE.OtherTime                     .00000     (Insuf)    .00000     .00000          8    
+PICTURE_VERDE.TotalTime                     879.23     (Insuf)    526.77     1364.2          8    
+PECA.VATime                                     --         --         --         --          0
+PECA.NVATime                                    --         --         --         --          0
+PECA.WaitTime                                   --         --         --         --          0
+PECA.TranTime                                   --         --         --         --          0
+PECA.OtherTime                                  --         --         --         --          0
+PECA.TotalTime                                  --         --         --         --          0
+PICTURE_AZUL.VATime                         298.95     (Insuf)    226.40     367.36         11    
+PICTURE_AZUL.NVATime                        .00000     (Insuf)    .00000     .00000         11    
+PICTURE_AZUL.WaitTime                       230.12     (Insuf)    .00000     711.74         11    
+PICTURE_AZUL.TranTime                       40.000     (Insuf)    40.000     40.000         11    
+PICTURE_AZUL.OtherTime                      .00000     (Insuf)    .00000     .00000         11    
+PICTURE_AZUL.TotalTime                      569.07     (Insuf)    330.49     978.14         11    
+Processo Cortadeira.Queue.WaitingTime       165.79     (Insuf)    .00000     612.14         15    
+Processo Torno.Queue.WaitingTime            237.45     (Insuf)    .00000     711.74         15    
+Processo Lixadeira.Queue.WaitingTime        106.38     (Insuf)    .00000     330.17         12    
+
+                                     VARIÁVEIS DISCRETAS
+
+Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
+___________________________________________________________________________________________________
+
+PICTURE_VERMELHO.WIP                        .99648     (Insuf)    .00000     2.0000     1.0000    
+PICTURE_VERDE.WIP                           1.3533     (Insuf)    .00000     4.0000     3.0000    
+PECA.WIP                                    .00000     (Insuf)    .00000     1.0000     .00000    
+PICTURE_AZUL.WIP                            1.0433     (Insuf)    .00000     3.0000     .00000    
+OPERADOR_CORTE.NumberBusy                   .59135     (Insuf)    .00000     1.0000     1.0000    
+OPERADOR_CORTE.NumberScheduled              1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OPERADOR_CORTE.Utilization                  .59135     (Insuf)    .00000     1.0000     1.0000    
+OPERADOR_TORNO.NumberBusy                   .77632     (Insuf)    .00000     1.0000     .00000    
+OPERADOR_TORNO.NumberScheduled              1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OPERADOR_TORNO.Utilization                  .77632     (Insuf)    .00000     1.0000     .00000    
+OPERADOR_LIXADEIRA.NumberBusy               .54016     (Insuf)    .00000     1.0000     1.0000    
+OPERADOR_LIXADEIRA.NumberScheduled          1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OPERADOR_LIXADEIRA.Utilization              .54016     (Insuf)    .00000     1.0000     1.0000    
+Processo Cortadeira.Queue.NumberInQueue     .41450     (Insuf)    .00000     3.0000     .00000    
+Processo Torno.Queue.NumberInQueue          .59364     (Insuf)    .00000     3.0000     .00000    
+Processo Lixadeira.Queue.NumberInQueue      .25711     (Insuf)    .00000     2.0000     2.0000    
+
+                                             RESULTADOS
+
+Identificador                                   Valor
+_____________________________________________________________
+
+PICTURE_VERMELHO.NumberIn                   4.0000    
+PICTURE_VERMELHO.NumberOut                  3.0000    
+PICTURE_VERDE.NumberIn                      11.000    
+PICTURE_VERDE.NumberOut                     8.0000    
+PECA.NumberIn                               26.000    
+PECA.NumberOut                              26.000    
+PICTURE_AZUL.NumberIn                       11.000    
+PICTURE_AZUL.NumberOut                      11.000    
+OPERADOR_CORTE.NumberSeized                 15.000    
+OPERADOR_CORTE.ScheduledUtilization         .59135    
+OPERADOR_TORNO.NumberSeized                 15.000    
+OPERADOR_TORNO.ScheduledUtilization         .77632    
+OPERADOR_LIXADEIRA.NumberSeized             12.000    
+OPERADOR_LIXADEIRA.ScheduledUtilization     .54016    
+System.NumberOut                            22.000    
+
+
+                                      ARENA Simulation Results
+                           luizmandradegomes@gmail.com - License: STUDENT
+
+                              Resumo de resultados para 10 Replicações
+
+Projeto: Unnamed Project                                             Data da execução :12/22/2022
+Analista: luizmandradegomes@gmail.com                                 Data de revisão do modelo:12/22/2022
+
+
+                                             RESULTADOS
+
+Identificador                                 Média    Meia-largura Mínima    Maximo # de Replicações
+___________________________________________________________________________________________________
+
+PICTURE_VERMELHO.NumberIn                   5.5000     1.4405     3.0000     9.0000     10
+PICTURE_VERMELHO.NumberOut                  3.6000     .60320     3.0000     5.0000     10
+PICTURE_VERDE.NumberIn                      11.100     1.9502     8.0000     16.000     10
+PICTURE_VERDE.NumberOut                     8.9000     1.7342     6.0000     14.000     10
+PECA.NumberIn                               29.900     4.5919     20.000     41.000     10
+PECA.NumberOut                              29.900     4.5919     20.000     41.000     10
+PICTURE_AZUL.NumberIn                       13.300     3.0544     7.0000     20.000     10
+PICTURE_AZUL.NumberOut                      10.600     1.6241     6.0000     13.000     10
+OPERADOR_CORTE.NumberSeized                 15.900     2.3227     12.000     21.000     10
+OPERADOR_CORTE.ScheduledUtilization         .66328     .09520     .50548     .90373     10
+OPERADOR_TORNO.NumberSeized                 15.600     1.9429     10.000     19.000     10
+OPERADOR_TORNO.ScheduledUtilization         .82377     .09993     .51380     .98398     10
+OPERADOR_LIXADEIRA.NumberSeized             13.400     1.5155     11.000     18.000     10
+OPERADOR_LIXADEIRA.ScheduledUtilization     .61389     .08058     .48263     .85065     10
+System.NumberOut                            23.100     2.4882     17.000     28.000     10
+
+Tempo executando a simulação: 0.33 minutos.
+Simulação completada.

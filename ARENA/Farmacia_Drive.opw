@@ -1,0 +1,11 @@
+[RESOURCES]
+Pharmacist
+[VARIABLES]
+Get Medicine.NumberOut
+Get Medicine.NumberIn
+vNP
+Fim.NumberOut
+vEventType
+Create Clientes.NumberOut
+vServiceMean
+vNumPrescriptions

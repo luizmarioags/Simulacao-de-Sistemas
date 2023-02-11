@@ -1,0 +1,13 @@
+[RESOURCES]
+[VARIABLES]
+SAIDA.NumberOut
+TOTAL3
+TOTAL2
+TOTAL1
+CHEGADA.NumberOut
+Processo Maquina 3.NumberIn
+Processo Maquina 2.NumberIn
+Processo Maquina 1.NumberIn
+Processo Maquina 3.NumberOut
+Processo Maquina 2.NumberOut
+Processo Maquina 1.NumberOut

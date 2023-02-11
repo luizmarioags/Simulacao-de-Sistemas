@@ -1,0 +1,12 @@
+[RESOURCES]
+Operador Maquina A
+Reparador
+[VARIABLES]
+Decide 2.NumberOut False
+Chegada.NumberOut
+Processo Reparo.NumberOut
+Encerramento.NumberOut
+Processo Reparo.NumberIn
+Processo Maquina A.NumberIn
+Processo Maquina A.NumberOut
+Decide 2.NumberOut True

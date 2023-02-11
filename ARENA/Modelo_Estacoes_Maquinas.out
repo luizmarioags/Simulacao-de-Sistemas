@@ -1,0 +1,88 @@
+
+----------------------------------------------------------------------
+11543:GGTSEQ
+Entidade: 2
+Um erro de simulação foi detectado no tempo  0.0 no seguinte bloco:
+
+ *    8 35$             ROUTE:5,SEQ;
+
+Número de sequencia 0 não está no intervalo válido 1-2
+Número inválido ou elemento SEQUENCES não especificado.
+----------------------------------------------------------------------
+
+
+Controlador de execução do SIMAN.
+
+0.0 Minutos>
+                                      ARENA Simulation Results
+                           luizmandradegomes@gmail.com - License: STUDENT
+
+                                  Sumário para Replicação 1 de 1
+
+Projeto: Unnamed Project                                             Data da execução :12/20/2022
+Analista: luizmandradegomes@gmail.com                                 Data de revisão do modelo:12/20/2022
+
+Replicação terminada no tempo de      : 0.0 Minutos 
+Unidade de Tempo Base: Minutos
+
+                                           VARIÁVEIS DE REGISTRO
+
+Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
+___________________________________________________________________________________________________
+
+Peca_Luxo.VATime                                --         --         --         --          0
+Peca_Luxo.NVATime                               --         --         --         --          0
+Peca_Luxo.WaitTime                              --         --         --         --          0
+Peca_Luxo.TranTime                              --         --         --         --          0
+Peca_Luxo.OtherTime                             --         --         --         --          0
+Peca_Luxo.TotalTime                             --         --         --         --          0
+Peca_STD.VATime                                 --         --         --         --          0
+Peca_STD.NVATime                                --         --         --         --          0
+Peca_STD.WaitTime                               --         --         --         --          0
+Peca_STD.TranTime                               --         --         --         --          0
+Peca_STD.OtherTime                              --         --         --         --          0
+Peca_STD.TotalTime                              --         --         --         --          0
+Processo Maquina C.Queue.WaitingTime            --         --         --         --          0
+Processo Maquina B.Queue.WaitingTime            --         --         --         --          0
+Processo Maquina A.Queue.WaitingTime            --         --         --         --          0
+
+                                     VARIÁVEIS DISCRETAS
+
+Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
+___________________________________________________________________________________________________
+
+Peca_Luxo.WIP                               .00000     (Insuf)    .00000     .00000     .00000    
+Peca_STD.WIP                                .00000     (Insuf)    .00000     1.0000     1.0000    
+OPERADOR_C.NumberBusy                       .00000     (Insuf)    .00000     .00000     .00000    
+OPERADOR_C.NumberScheduled                  .00000     (Insuf)    1.0000     1.0000     1.0000    
+OPERADOR_C.Utilization                      .00000     (Insuf)    .00000     .00000     .00000    
+OPERADOR_B.NumberBusy                       .00000     (Insuf)    .00000     .00000     .00000    
+OPERADOR_B.NumberScheduled                  .00000     (Insuf)    1.0000     1.0000     1.0000    
+OPERADOR_B.Utilization                      .00000     (Insuf)    .00000     .00000     .00000    
+OPERADOR_A.NumberBusy                       .00000     (Insuf)    .00000     .00000     .00000    
+OPERADOR_A.NumberScheduled                  .00000     (Insuf)    1.0000     1.0000     1.0000    
+OPERADOR_A.Utilization                      .00000     (Insuf)    .00000     .00000     .00000    
+Processo Maquina C.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Processo Maquina B.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Processo Maquina A.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             RESULTADOS
+
+Identificador                                   Valor
+_____________________________________________________________
+
+Peca_Luxo.NumberIn                          .00000    
+Peca_Luxo.NumberOut                         .00000    
+Peca_STD.NumberIn                           1.0000    
+Peca_STD.NumberOut                          .00000    
+OPERADOR_C.NumberSeized                     .00000    
+OPERADOR_C.ScheduledUtilization             .00000    
+OPERADOR_B.NumberSeized                     .00000    
+OPERADOR_B.ScheduledUtilization             .00000    
+OPERADOR_A.NumberSeized                     .00000    
+OPERADOR_A.ScheduledUtilization             .00000    
+System.NumberOut                            .00000    
+
+
+Tempo executando a simulação: 179.08 minutos.
+Simulação completada com 1 erro(s) e 0 alerta(s).

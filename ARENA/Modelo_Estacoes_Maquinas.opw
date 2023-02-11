@@ -1,0 +1,16 @@
+[RESOURCES]
+OPERADOR_C
+OPERADOR_B
+OPERADOR_A
+[VARIABLES]
+Chegada STD.NumberOut
+Chegada Luxo.NumberOut
+Total_Luxo
+Dispose 1.NumberOut
+Total_Std
+Processo Maquina C.NumberIn
+Processo Maquina B.NumberIn
+Processo Maquina A.NumberIn
+Processo Maquina C.NumberOut
+Processo Maquina B.NumberOut
+Processo Maquina A.NumberOut
